@@ -1,0 +1,692 @@
+{
+ "russell-aima": {
+  "verified": true,
+  "openLibraryKey": "/works/OL2896994W",
+  "openLibraryTitle": "Artificial intelligence",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/92018-L.jpg"
+  }
+ },
+ "rich-ai": {
+  "verified": true,
+  "openLibraryKey": "/works/OL4453349W",
+  "openLibraryTitle": "Artificial intelligence",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/55159-L.jpg"
+  }
+ },
+ "foster-gdl": {
+  "verified": true,
+  "openLibraryKey": "/works/OL28799243W",
+  "openLibraryTitle": "Generative Deep Learning",
+  "cover": {
+   "kind": "isbn",
+   "source": "https://covers.openlibrary.org/b/isbn/9781098134181-L.jpg?default=false"
+  }
+ },
+ "auffarth-langchain": {
+  "verified": true,
+  "openLibraryKey": "/works/OL37833316W",
+  "openLibraryTitle": "Generative AI with LangChain",
+  "cover": null
+ },
+ "raschka-llm": {
+  "verified": true,
+  "openLibraryKey": "/works/OL38398010W",
+  "openLibraryTitle": "Build a Large Language Model (from Scratch)",
+  "cover": {
+   "kind": "isbn",
+   "source": "https://covers.openlibrary.org/b/isbn/9781633437166-L.jpg?default=false"
+  }
+ },
+ "luger-ai": {
+  "verified": true,
+  "openLibraryKey": "/works/OL2710037W",
+  "openLibraryTitle": "Artificial intelligence",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/2384072-L.jpg"
+  }
+ },
+ "pointer-pytorch": {
+  "verified": false,
+  "openLibraryKey": null,
+  "openLibraryTitle": null,
+  "cover": null
+ },
+ "poole-linear": {
+  "verified": true,
+  "openLibraryKey": "/works/OL5840286W",
+  "openLibraryTitle": "Linear Algebra",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/365227-L.jpg"
+  }
+ },
+ "zill-first-de": {
+  "verified": true,
+  "openLibraryKey": "/works/OL19497W",
+  "openLibraryTitle": "A first course in differential equations with modeling applications",
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/8649425-L.jpg"
+  }
+ },
+ "lay-linear": {
+  "verified": true,
+  "openLibraryKey": "/works/OL47604W",
+  "openLibraryTitle": "Linear algebra and its applications",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/13054058-L.jpg"
+  }
+ },
+ "lipschutz-linear": {
+  "verified": true,
+  "openLibraryKey": "/works/OL20723468W",
+  "openLibraryTitle": "Schaum's Outline of Linear Algebra",
+  "cover": {
+   "kind": "isbn",
+   "source": "https://covers.openlibrary.org/b/isbn/9780071794565-L.jpg?default=false"
+  }
+ },
+ "simmons-de": {
+  "verified": true,
+  "openLibraryKey": "/works/OL10469368W",
+  "openLibraryTitle": "Differential Equations with Applications and Historical Notes",
+  "cover": {
+   "kind": "isbn",
+   "source": "https://covers.openlibrary.org/b/isbn/9781498702591-L.jpg?default=false"
+  }
+ },
+ "acharya-bigdata": {
+  "verified": true,
+  "openLibraryKey": "/works/OL29245987W",
+  "openLibraryTitle": "Big Data and Analytics",
+  "cover": null
+ },
+ "kolb-revolution": {
+  "verified": true,
+  "openLibraryKey": "/works/OL38061077W",
+  "openLibraryTitle": "The Big Data Revolution",
+  "cover": null
+ },
+ "lam-hadoop": {
+  "verified": true,
+  "openLibraryKey": "/works/OL16522166W",
+  "openLibraryTitle": "Hadoop in action",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/8656530-L.jpg"
+  }
+ },
+ "mano-csa": {
+  "verified": true,
+  "openLibraryKey": "/works/OL14939603W",
+  "openLibraryTitle": "Computer system architecture, third edition",
+  "cover": null
+ },
+ "stallings-coa": {
+  "verified": true,
+  "openLibraryKey": "/works/OL1865015W",
+  "openLibraryTitle": "Computer organization and architecture",
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/6621473-L.jpg"
+  }
+ },
+ "hennessy-quant": {
+  "verified": true,
+  "openLibraryKey": "/works/OL2664271W",
+  "openLibraryTitle": "Computer architecture",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/6480750-L.jpg"
+  }
+ },
+ "hayes-cao": {
+  "verified": true,
+  "openLibraryKey": "/works/OL283083W",
+  "openLibraryTitle": "Computer Architecture and Organization",
+  "cover": null
+ },
+ "hamacher-co": {
+  "verified": true,
+  "openLibraryKey": "/works/OL3008478W",
+  "openLibraryTitle": "Computer organization",
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/14428841-L.jpg"
+  }
+ },
+ "parashar-manufacturing": {
+  "verified": true,
+  "openLibraryKey": "/works/OL9069347M",
+  "openLibraryTitle": "Elements of Manufacturing Processes",
+  "cover": null
+ },
+ "bhatt-drawing": {
+  "verified": true,
+  "openLibraryKey": "/works/OL24487835W",
+  "openLibraryTitle": "Engineering Drawing Plane and Solid Geometry",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/11103569-L.jpg"
+  }
+ },
+ "kalpakjian-manufacturing": {
+  "verified": true,
+  "openLibraryKey": "/works/OL3289918W",
+  "openLibraryTitle": "Manufacturing engineering and technology",
+  "cover": {
+   "kind": "isbn",
+   "source": "https://covers.openlibrary.org/b/isbn/9788177581706-L.jpg?default=false"
+  }
+ },
+ "kulkarni-graphics": {
+  "verified": false,
+  "openLibraryKey": null,
+  "openLibraryTitle": null,
+  "cover": null
+ },
+ "thomas-calculus": {
+  "verified": false,
+  "openLibraryKey": null,
+  "openLibraryTitle": null,
+  "cover": {
+   "kind": "isbn",
+   "source": "https://covers.openlibrary.org/b/isbn/9780134439020-L.jpg?default=false"
+  }
+ },
+ "kreyszig-aem": {
+  "verified": true,
+  "openLibraryKey": "/works/OL1400344W",
+  "openLibraryTitle": "Advanced Engineering Mathematics",
+  "cover": {
+   "kind": "isbn",
+   "source": "https://covers.openlibrary.org/b/isbn/9780470458365-L.jpg?default=false"
+  }
+ },
+ "zill-aem": {
+  "verified": true,
+  "openLibraryKey": "/works/OL19495W",
+  "openLibraryTitle": "Advanced engineering mathematics",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/516927-L.jpg"
+  }
+ },
+ "rosen-discrete": {
+  "verified": true,
+  "openLibraryKey": "/works/OL31821W",
+  "openLibraryTitle": "Discrete Mathematics and Its Applications",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/7083171-L.jpg"
+  }
+ },
+ "tremblay-dms": {
+  "verified": true,
+  "openLibraryKey": "/works/OL4777616W",
+  "openLibraryTitle": "Discrete mathematical structures with applications to computer science",
+  "cover": null
+ },
+ "liu-elements": {
+  "verified": true,
+  "openLibraryKey": "/works/OL120933W",
+  "openLibraryTitle": "Elements of discrete mathematics",
+  "cover": null
+ },
+ "grimaldi-discrete": {
+  "verified": true,
+  "openLibraryKey": "/works/OL1901959W",
+  "openLibraryTitle": "Discrete and combinatorial mathematics",
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/134267-L.jpg"
+  }
+ },
+ "kolman-dms": {
+  "verified": true,
+  "openLibraryKey": "/works/OL102147W",
+  "openLibraryTitle": "Discrete Mathematical Structures",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/83244-L.jpg"
+  }
+ },
+ "bhattacharya-beee": {
+  "verified": false,
+  "openLibraryKey": null,
+  "openLibraryTitle": null,
+  "cover": null
+ },
+ "kothari-electronics": {
+  "verified": true,
+  "openLibraryKey": "/works/OL35787006W",
+  "openLibraryTitle": "Basic Electrical Engineering - Basic Electrical and Electronics Engineering - Electrical Engineering Books",
+  "cover": null
+ },
+ "bobrow-foundations": {
+  "verified": false,
+  "openLibraryKey": null,
+  "openLibraryTitle": null,
+  "cover": null
+ },
+ "sukhija-beee": {
+  "verified": false,
+  "openLibraryKey": null,
+  "openLibraryTitle": null,
+  "cover": null
+ },
+ "gupta-beee": {
+  "verified": true,
+  "openLibraryKey": "/works/OL24336896W",
+  "openLibraryTitle": "Basic Electrical and Electronics Engineering",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/10858530-L.jpg"
+  }
+ },
+ "cormen-clrs": {
+  "verified": true,
+  "openLibraryKey": "/works/OL4781294W",
+  "openLibraryTitle": "Introduction to Algorithms",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/2341462-L.jpg"
+  }
+ },
+ "levitin-daa": {
+  "verified": false,
+  "openLibraryKey": null,
+  "openLibraryTitle": null,
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/193842-L.jpg"
+  }
+ },
+ "baase-algorithms": {
+  "verified": true,
+  "openLibraryKey": "/works/OL3346351W",
+  "openLibraryTitle": "Computer algorithms",
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/12692110-L.jpg"
+  }
+ },
+ "sedgewick-algorithms": {
+  "verified": true,
+  "openLibraryKey": "/works/OL16116506W",
+  "openLibraryTitle": "Algorithms",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/7992499-L.jpg"
+  }
+ },
+ "kleinberg-design": {
+  "verified": true,
+  "openLibraryKey": "/works/OL9166321W",
+  "openLibraryTitle": "Algorithm design",
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/15226599-L.jpg"
+  }
+ },
+ "aho-design": {
+  "verified": true,
+  "openLibraryKey": "/works/OL3509436W",
+  "openLibraryTitle": "The Design and Analysis of Computer Algorithms",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/134009-L.jpg"
+  }
+ },
+ "goodrich-design": {
+  "verified": true,
+  "openLibraryKey": "/works/OL5970259W",
+  "openLibraryTitle": "Algorithm design",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/304048-L.jpg"
+  }
+ },
+ "skiena-manual": {
+  "verified": true,
+  "openLibraryKey": "/works/OL2677499W",
+  "openLibraryTitle": "The algorithm design manual",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/245565-L.jpg"
+  }
+ },
+ "silberschatz-db": {
+  "verified": true,
+  "openLibraryKey": "/works/OL1854539W",
+  "openLibraryTitle": "Database system concepts",
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/10385525-L.jpg"
+  }
+ },
+ "elmasri-db": {
+  "verified": true,
+  "openLibraryKey": "/works/OL3947220W",
+  "openLibraryTitle": "Fundamentals of database systems",
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/9405794-L.jpg"
+  }
+ },
+ "ramakrishnan-db": {
+  "verified": true,
+  "openLibraryKey": "/works/OL16961668W",
+  "openLibraryTitle": "Database management systems",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/63477-L.jpg"
+  }
+ },
+ "date-db": {
+  "verified": true,
+  "openLibraryKey": "/works/OL1840931W",
+  "openLibraryTitle": "An introduction to database systems",
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/134648-L.jpg"
+  }
+ },
+ "connolly-db": {
+  "verified": true,
+  "openLibraryKey": "/works/OL1907567W",
+  "openLibraryTitle": "Database systems",
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/6962216-L.jpg"
+  }
+ },
+ "forouzan-dcn": {
+  "verified": true,
+  "openLibraryKey": "/works/OL25773486W",
+  "openLibraryTitle": "Data Communications and Networking with TCP/IP Protocol Suite",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/13244054-L.jpg"
+  }
+ },
+ "tanenbaum-networks": {
+  "verified": true,
+  "openLibraryKey": "/works/OL1970691W",
+  "openLibraryTitle": "Computer Networks",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/9378629-L.jpg"
+  }
+ },
+ "kurose-networking": {
+  "verified": true,
+  "openLibraryKey": "/works/OL56272W",
+  "openLibraryTitle": "Computer networking",
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/15108699-L.jpg"
+  }
+ },
+ "peterson-networks": {
+  "verified": true,
+  "openLibraryKey": "/works/OL3233809W",
+  "openLibraryTitle": "Computer networks",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/784103-L.jpg"
+  }
+ },
+ "tenenbaum-ds": {
+  "verified": true,
+  "openLibraryKey": "/works/OL4798785W",
+  "openLibraryTitle": "Data Structures Using C",
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/15122410-L.jpg"
+  }
+ },
+ "horowitz-ds": {
+  "verified": true,
+  "openLibraryKey": "/works/OL17362575W",
+  "openLibraryTitle": " Fundamentals of Data Structures in C++ 2nd Edition",
+  "cover": null
+ },
+ "kruse-ds": {
+  "verified": true,
+  "openLibraryKey": "/works/OL1947040W",
+  "openLibraryTitle": "Data structures and program design in C",
+  "cover": null
+ },
+ "lipschutz-ds": {
+  "verified": false,
+  "openLibraryKey": null,
+  "openLibraryTitle": null,
+  "cover": null
+ },
+ "ghatak-optics": {
+  "verified": true,
+  "openLibraryKey": "/works/OL17176387W",
+  "openLibraryTitle": "Optics",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/7357449-L.jpg"
+  }
+ },
+ "svelto-lasers": {
+  "verified": true,
+  "openLibraryKey": "/works/OL19896572W",
+  "openLibraryTitle": "Principles of Lasers",
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/9964720-L.jpg"
+  }
+ },
+ "griffiths-em": {
+  "verified": true,
+  "openLibraryKey": "/works/OL1999763W",
+  "openLibraryTitle": "Introduction to electrodynamics",
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/7377238-L.jpg"
+  }
+ },
+ "kittel-solid": {
+  "verified": true,
+  "openLibraryKey": "/works/OL2922155W",
+  "openLibraryTitle": "Introduction to solid state physics",
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/304541-L.jpg"
+  }
+ },
+ "serway-physics": {
+  "verified": true,
+  "openLibraryKey": "/works/OL65069W",
+  "openLibraryTitle": "Physics for scientists and engineers, with modern physics",
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/11694863-L.jpg"
+  }
+ },
+ "young-physics": {
+  "verified": true,
+  "openLibraryKey": "/works/OL18261671W",
+  "openLibraryTitle": "Sears and Zemansky's university physics with modern physics",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/4309723-L.jpg"
+  }
+ },
+ "thyagarajan-lasers": {
+  "verified": true,
+  "openLibraryKey": "/works/OL6443772W",
+  "openLibraryTitle": "Lasers, theory and applications",
+  "cover": null
+ },
+ "jackson-em": {
+  "verified": true,
+  "openLibraryKey": "/works/OL2743722W",
+  "openLibraryTitle": "Classical electrodynamics",
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/12823867-L.jpg"
+  }
+ },
+ "beiser-modern": {
+  "verified": true,
+  "openLibraryKey": "/works/OL3481343W",
+  "openLibraryTitle": "Concepts of modern physics",
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/63399-L.jpg"
+  }
+ },
+ "misra-iot": {
+  "verified": true,
+  "openLibraryKey": "/works/OL25790193W",
+  "openLibraryTitle": "Introduction to IoT",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/13193858-L.jpg"
+  }
+ },
+ "bahga-iot": {
+  "verified": true,
+  "openLibraryKey": "/works/OL20782811W",
+  "openLibraryTitle": "Internet of Things",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/9988395-L.jpg"
+  }
+ },
+ "hanes-iot": {
+  "verified": true,
+  "openLibraryKey": "/works/OL20667026W",
+  "openLibraryTitle": "IoT Fundamentals",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/9334585-L.jpg"
+  }
+ },
+ "minoli-iot": {
+  "verified": true,
+  "openLibraryKey": "/works/OL21506872W",
+  "openLibraryTitle": "Building the Internet of Things with IPv6 and MIPv6",
+  "cover": null
+ },
+ "raschka-pyml": {
+  "verified": true,
+  "openLibraryKey": "/works/OL19667740W",
+  "openLibraryTitle": "Python machine learning",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/10144350-L.jpg"
+  }
+ },
+ "alpaydin-ml": {
+  "verified": true,
+  "openLibraryKey": "/works/OL5743132W",
+  "openLibraryTitle": "Introduction to machine learning",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/149377-L.jpg"
+  }
+ },
+ "geron-handson": {
+  "verified": true,
+  "openLibraryKey": "/works/OL20709638W",
+  "openLibraryTitle": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/9388208-L.jpg"
+  }
+ },
+ "bishop-prml": {
+  "verified": true,
+  "openLibraryKey": "/works/OL2963587W",
+  "openLibraryTitle": "Pattern Recognition and Machine Learning (Information Science and Statistics)",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/245089-L.jpg"
+  }
+ },
+ "james-isl": {
+  "verified": true,
+  "openLibraryKey": "/works/OL19859252W",
+  "openLibraryTitle": "An Introduction to Statistical Learning",
+  "cover": null
+ },
+ "silberschatz-os": {
+  "verified": true,
+  "openLibraryKey": "/works/OL1854541W",
+  "openLibraryTitle": "Operating System Concepts",
+  "cover": {
+   "kind": "work",
+   "source": "https://covers.openlibrary.org/b/id/302591-L.jpg"
+  }
+ },
+ "nutt-os": {
+  "verified": true,
+  "openLibraryKey": "/works/OL536885W",
+  "openLibraryTitle": "Operating systems",
+  "cover": null
+ },
+ "stallings-os": {
+  "verified": true,
+  "openLibraryKey": "/works/OL1865013W",
+  "openLibraryTitle": "Operating systems",
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/82466-L.jpg"
+  }
+ },
+ "dhamdhere-os": {
+  "verified": true,
+  "openLibraryKey": "/works/OL9308302W",
+  "openLibraryTitle": "Systems Programming and Operating Systems",
+  "cover": null
+ },
+ "sommerville-se": {
+  "verified": true,
+  "openLibraryKey": "/works/OL2960016W",
+  "openLibraryTitle": "Software engineering",
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/193043-L.jpg"
+  }
+ },
+ "pressman-se": {
+  "verified": true,
+  "openLibraryKey": "/works/OL284009W",
+  "openLibraryTitle": "Software Engineering",
+  "cover": {
+   "kind": "edition",
+   "source": "https://covers.openlibrary.org/b/id/9357157-L.jpg"
+  }
+ },
+ "jawadekar-se": {
+  "verified": false,
+  "openLibraryKey": null,
+  "openLibraryTitle": null,
+  "cover": null
+ },
+ "fairley-se": {
+  "verified": true,
+  "openLibraryKey": "/works/OL8059213W",
+  "openLibraryTitle": "Software Engineering Concepts",
+  "cover": null
+ },
+ "jalote-se": {
+  "verified": true,
+  "openLibraryKey": "/works/OL20891696W",
+  "openLibraryTitle": "Pankaj Jalote'S Software Engineering",
+  "cover": null
+ }
+}

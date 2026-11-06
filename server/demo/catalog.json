@@ -1,0 +1,1413 @@
+{
+ "courses": {
+  "AI": {
+   "file": "AI - Updated (1).pdf",
+   "code": null,
+   "name": "Artificial Intelligence",
+   "department": "Computer Science & Engineering",
+   "semester": null
+  },
+  "LADE": {
+   "file": "Batch 2024_Course Handout_Linear Algebra & Differential Equations_OddSem-2025-26.pdf",
+   "code": "MTH2802",
+   "name": "Linear Algebra & Differential Equations",
+   "department": "Mathematics",
+   "semester": 3
+  },
+  "BDA": {
+   "file": "BDA_CSE 3712_ProjectBased.pdf",
+   "code": "CSE3712",
+   "name": "Big Data Analytics",
+   "department": "Computer Science & Engineering",
+   "semester": 5
+  },
+  "COA": {
+   "file": "COA_CSE2709.pdf",
+   "code": "CSE2709",
+   "name": "Computer Organization & Architecture",
+   "department": "Computer Science & Engineering",
+   "semester": 5
+  },
+  "EME": {
+   "file": "Course Handout-RM.docx",
+   "code": null,
+   "name": "Elements of Mechanical Engineering",
+   "department": "Mechanical Engineering",
+   "semester": null
+  },
+  "CALC": {
+   "file": "Course-Handout_Calculus for Engineers-OddSem-2024-25_Final.pdf",
+   "code": "MTH1709",
+   "name": "Calculus for Engineers",
+   "department": "Mathematics",
+   "semester": 1
+  },
+  "DM": {
+   "file": "Course-Handout_Discrete Mathematics-EvenSem-2024-25.pdf",
+   "code": "MTH1803",
+   "name": "Discrete Mathematics",
+   "department": "Mathematics",
+   "semester": 2
+  },
+  "BEEE": {
+   "file": "Course_Handout_ECE 1101 BEEE_2025 (1).docx",
+   "code": "ECE1101",
+   "name": "Basic Electrical and Electronics Engineering",
+   "department": "Electronics & Communication Engineering",
+   "semester": 2
+  },
+  "DAA": {
+   "file": "DAA -4th Sem 2025_26_course_handouts (1).docx",
+   "code": "CSE2020",
+   "name": "Design and Analysis of Algorithms",
+   "department": "Computer Science & Engineering",
+   "semester": 4
+  },
+  "DBMS": {
+   "file": "DBMS_CSE2021_v2.pdf",
+   "code": "CSE2021",
+   "name": "Database Management System",
+   "department": "Computer Science & Engineering",
+   "semester": 4
+  },
+  "DCCN": {
+   "file": "DCCN_CSE2009_Handout.pdf",
+   "code": "CSE2009",
+   "name": "Data Communications & Computer Networks",
+   "department": "Computer Science & Engineering",
+   "semester": 4
+  },
+  "DSA": {
+   "file": "DSA_Course_Handout_2025_2026 (1).pdf",
+   "code": "CSE2711",
+   "name": "Data Structures and Algorithms",
+   "department": "Computer Science & Engineering",
+   "semester": 3
+  },
+  "PHY": {
+   "file": "Handout PHY1101, Engineering Physics, 2nd sem 2024-25.pdf",
+   "code": "PHY1101",
+   "name": "Engineering Physics",
+   "department": "Physics",
+   "semester": 2
+  },
+  "IOT": {
+   "file": "Handout_CSE3722 IoT Networks, Architectures and Applications-CSE 2024 Batch.pdf",
+   "code": "CSE3722",
+   "name": "IoT Networks, Architectures and Applications",
+   "department": "Computer Science & Engineering",
+   "semester": 5
+  },
+  "ML": {
+   "file": "Machine Learning_Course Handout_July - December 2026-1.pdf",
+   "code": "CSE20232",
+   "name": "Machine Learning",
+   "department": "Computer Science & Engineering",
+   "semester": 5
+  },
+  "OS": {
+   "file": "OS_CSE2024-1.pdf",
+   "code": "CSE2024",
+   "name": "Operating System",
+   "department": "Computer Science & Engineering",
+   "semester": 3
+  },
+  "SE": {
+   "file": "SE_CSE3005 - July-Dec,2026-1.pdf",
+   "code": "CSE3005",
+   "name": "Software Engineering",
+   "department": "Computer Science & Engineering",
+   "semester": 4
+  }
+ },
+ "excluded": [
+  {
+   "reason": "research paper",
+   "text": "Attention is all you need",
+   "source": {
+    "course": "AI",
+    "match": "Attention is all you need"
+   }
+  },
+  {
+   "reason": "research paper",
+   "text": "Generative Pre-trained Transformer: A Comprehensive Review",
+   "source": {
+    "course": "AI",
+    "match": "Generative Pre-trained Transformer"
+   }
+  },
+  {
+   "reason": "could not be confirmed as a published book: no record for the title or ISBN in Open Library",
+   "text": "Gabriel Garcia, Language Models: From Scratch to GPT-3, Packt, ISBN 978-1801815861",
+   "source": {
+    "course": "AI",
+    "match": "Gabriel Garcia"
+   }
+  },
+  {
+   "reason": "handout title does not match the known Poole and Mackworth book, Artificial Intelligence: Foundations of Computational Agents",
+   "text": "David L. Poole and Alan K. Mackworth, Python code for Artificial Intelligence",
+   "source": {
+    "course": "AI",
+    "match": "Python code for Artificial Intelligence"
+   }
+  }
+ ],
+ "books": [
+  {
+   "id": "russell-aima",
+   "title": "Artificial Intelligence: A Modern Approach",
+   "authors": "Stuart Russell, Peter Norvig",
+   "publisher": "Pearson",
+   "corrected": "Handout spells the author Russel.",
+   "sources": [
+    {
+     "course": "AI",
+     "role": "textbook",
+     "match": "A Modern Approach"
+    }
+   ]
+  },
+  {
+   "id": "rich-ai",
+   "title": "Artificial Intelligence",
+   "authors": "Elaine Rich, Kevin Knight, Shivashankar B. Nair",
+   "publisher": "McGraw Hill",
+   "sources": [
+    {
+     "course": "AI",
+     "role": "textbook",
+     "match": "Elaine Rich"
+    }
+   ]
+  },
+  {
+   "id": "foster-gdl",
+   "title": "Generative Deep Learning: Teaching Machines to Paint, Write, Compose, and Play",
+   "authors": "David Foster",
+   "edition": "2nd",
+   "publisher": "O'Reilly Media",
+   "year": 2023,
+   "isbn": "9781098134181",
+   "sources": [
+    {
+     "course": "AI",
+     "role": "textbook",
+     "match": "Generative Deep Learning"
+    }
+   ]
+  },
+  {
+   "id": "auffarth-langchain",
+   "title": "Generative AI with LangChain",
+   "authors": "Ben Auffarth",
+   "edition": "1st",
+   "publisher": "Packt Publishing",
+   "year": 2023,
+   "isbn": "9781835083468",
+   "sources": [
+    {
+     "course": "AI",
+     "role": "textbook",
+     "match": "Generative AI with LangChain"
+    }
+   ]
+  },
+  {
+   "id": "raschka-llm",
+   "title": "Build a Large Language Model (From Scratch)",
+   "authors": "Sebastian Raschka",
+   "edition": "1st",
+   "publisher": "Manning Publications",
+   "isbn": "9781633437166",
+   "sources": [
+    {
+     "course": "AI",
+     "role": "textbook",
+     "match": "Build a Large Language Model"
+    }
+   ]
+  },
+  {
+   "id": "luger-ai",
+   "title": "Artificial Intelligence: Structures and Strategies for Complex Problem Solving",
+   "authors": "George F. Luger",
+   "publisher": "Pearson",
+   "sources": [
+    {
+     "course": "AI",
+     "role": "reference",
+     "match": "George F. Luger"
+    }
+   ]
+  },
+  {
+   "id": "pointer-pytorch",
+   "title": "Programming PyTorch for Deep Learning",
+   "authors": "Ian Pointer",
+   "publisher": "O'Reilly",
+   "year": 2020,
+   "sources": [
+    {
+     "course": "AI",
+     "role": "reference",
+     "match": "Programming PyTorch"
+    }
+   ]
+  },
+  {
+   "id": "poole-linear",
+   "title": "Linear Algebra: A Modern Introduction",
+   "authors": "David Poole",
+   "edition": "4th",
+   "publisher": "Cengage Learning",
+   "year": 2015,
+   "isbn": "9781285463247",
+   "sources": [
+    {
+     "course": "LADE",
+     "role": "textbook",
+     "match": "Linear Algebra: A Modern Introduction"
+    }
+   ]
+  },
+  {
+   "id": "zill-first-de",
+   "title": "A First Course in Differential Equations with Modeling Applications",
+   "authors": "Dennis G. Zill",
+   "edition": "11th",
+   "publisher": "Brooks/Cole, Cengage Learning",
+   "uncertain": "Handout pairs 11th edition with year 2010 and an ISBN that belongs to an earlier edition, so year and ISBN are left out.",
+   "sources": [
+    {
+     "course": "LADE",
+     "role": "textbook",
+     "match": "A First Course in Differential Equations"
+    }
+   ]
+  },
+  {
+   "id": "lay-linear",
+   "title": "Linear Algebra and Its Applications",
+   "authors": "David C. Lay",
+   "edition": "3rd",
+   "publisher": "Pearson",
+   "year": 2014,
+   "isbn": "9788177583335",
+   "sources": [
+    {
+     "course": "LADE",
+     "role": "reference",
+     "match": "Linear Algebra and Its Applications"
+    }
+   ]
+  },
+  {
+   "id": "lipschutz-linear",
+   "title": "Schaum's Outline of Linear Algebra",
+   "authors": "Seymour Lipschutz, Marc Lipson",
+   "edition": "5th",
+   "publisher": "McGraw-Hill",
+   "year": 2014,
+   "isbn": "9780071794565",
+   "sources": [
+    {
+     "course": "LADE",
+     "role": "reference",
+     "match": "Schaum's Outline of Linear Algebra"
+    }
+   ]
+  },
+  {
+   "id": "simmons-de",
+   "title": "Differential Equations with Applications and Historical Notes",
+   "authors": "George F. Simmons",
+   "edition": "3rd",
+   "publisher": "CRC Press",
+   "year": 2017,
+   "isbn": "9781498702591",
+   "sources": [
+    {
+     "course": "LADE",
+     "role": "reference",
+     "match": "Differential Equations with Applications"
+    }
+   ]
+  },
+  {
+   "id": "acharya-bigdata",
+   "title": "Big Data and Analytics",
+   "authors": "Seema Acharya, Subhashini Chellappan",
+   "edition": "1st",
+   "publisher": "Wiley",
+   "year": 2015,
+   "corrected": "Handout prints the title as Big Data and Analysis and the author as Seema Acrharya.",
+   "sources": [
+    {
+     "course": "BDA",
+     "role": "textbook",
+     "match": "Big Data and Analysis"
+    }
+   ]
+  },
+  {
+   "id": "kolb-revolution",
+   "title": "The Big Data Revolution",
+   "authors": "Jason Kolb, Jeremy Kolb",
+   "publisher": "CreateSpace Independent Publishing Platform",
+   "year": 2013,
+   "sources": [
+    {
+     "course": "BDA",
+     "role": "reference",
+     "match": "The Big Data Revolution"
+    }
+   ]
+  },
+  {
+   "id": "lam-hadoop",
+   "title": "Hadoop in Action",
+   "authors": "Chuck Lam",
+   "publisher": "Dreamtech Press",
+   "year": 2016,
+   "sources": [
+    {
+     "course": "BDA",
+     "role": "reference",
+     "match": "Hadoop in Action"
+    }
+   ]
+  },
+  {
+   "id": "mano-csa",
+   "title": "Computer System Architecture",
+   "authors": "M. Morris Mano",
+   "edition": "Revised 3rd",
+   "publisher": "Pearson",
+   "year": 2017,
+   "sources": [
+    {
+     "course": "COA",
+     "role": "textbook",
+     "match": "Computer System Architecture"
+    }
+   ]
+  },
+  {
+   "id": "stallings-coa",
+   "title": "Computer Organization and Architecture",
+   "authors": "William Stallings",
+   "edition": "5th",
+   "publisher": "Pearson",
+   "uncertain": "Handout pairs 5th edition with 2013, which do not belong together, so the year is left out.",
+   "sources": [
+    {
+     "course": "COA",
+     "role": "textbook",
+     "match": "William Stallings (2013)"
+    }
+   ]
+  },
+  {
+   "id": "hennessy-quant",
+   "title": "Computer Architecture: A Quantitative Approach",
+   "authors": "John L. Hennessy, David A. Patterson",
+   "edition": "3rd",
+   "publisher": "Morgan Kaufmann",
+   "uncertain": "Handout pairs 3rd edition with 2012, which do not belong together, so the year is left out.",
+   "sources": [
+    {
+     "course": "COA",
+     "role": "textbook",
+     "match": "A Quantitative Approach"
+    }
+   ]
+  },
+  {
+   "id": "hayes-cao",
+   "title": "Computer Architecture and Organization",
+   "authors": "John P. Hayes",
+   "edition": "3rd",
+   "publisher": "McGraw Hill Education",
+   "year": 2017,
+   "sources": [
+    {
+     "course": "COA",
+     "role": "reference",
+     "match": "John P. Hayes"
+    }
+   ]
+  },
+  {
+   "id": "hamacher-co",
+   "title": "Computer Organization",
+   "authors": "V. Carl Hamacher, Zvonko G. Vranesic, Safwat G. Zaky",
+   "edition": "4th",
+   "publisher": "McGraw Hill Education",
+   "year": 1996,
+   "sources": [
+    {
+     "course": "COA",
+     "role": "reference",
+     "match": "Hamacher"
+    }
+   ]
+  },
+  {
+   "id": "parashar-manufacturing",
+   "title": "Elements of Manufacturing Processes",
+   "authors": "B.S. Nagendra Parashar, R.K. Mittal",
+   "publisher": "PHI Learning",
+   "year": 2015,
+   "uncertain": "The handout ISBN 9788120319583 fails its checksum, so it is left out.",
+   "sources": [
+    {
+     "course": "EME",
+     "role": "textbook",
+     "match": "Elements of Manufacturing Processes"
+    }
+   ]
+  },
+  {
+   "id": "bhatt-drawing",
+   "title": "Engineering Drawing",
+   "authors": "N.D. Bhatt",
+   "publisher": "Charotar Publishing House",
+   "sources": [
+    {
+     "course": "EME",
+     "role": "textbook",
+     "match": "N D Bhatt"
+    }
+   ]
+  },
+  {
+   "id": "kalpakjian-manufacturing",
+   "title": "Manufacturing Engineering and Technology",
+   "authors": "Serope Kalpakjian, Steven R. Schmid",
+   "edition": "4th",
+   "publisher": "Pearson India",
+   "year": 2001,
+   "isbn": "9788177581706",
+   "sources": [
+    {
+     "course": "EME",
+     "role": "reference",
+     "match": "Manufacturing Engineering and Technology"
+    }
+   ]
+  },
+  {
+   "id": "kulkarni-graphics",
+   "title": "Engineering Graphics with AutoCAD",
+   "authors": "D.M. Kulkarni, A.P. Rastogi, A.K. Sarkar",
+   "publisher": "PHI Learning",
+   "sources": [
+    {
+     "course": "EME",
+     "role": "reference",
+     "match": "Engineering Graphics with AutoCAD"
+    }
+   ]
+  },
+  {
+   "id": "thomas-calculus",
+   "title": "Thomas' Calculus",
+   "authors": "George B. Thomas Jr., Maurice D. Weir, Joel R. Hass",
+   "edition": "14th",
+   "publisher": "Pearson",
+   "year": 2018,
+   "isbn": "9780134439020",
+   "sources": [
+    {
+     "course": "CALC",
+     "role": "textbook",
+     "match": "THOMAS' CALCULUS"
+    }
+   ]
+  },
+  {
+   "id": "kreyszig-aem",
+   "title": "Advanced Engineering Mathematics",
+   "authors": "Erwin Kreyszig",
+   "edition": "10th",
+   "publisher": "Wiley India",
+   "year": 2011,
+   "isbn": "9780470458365",
+   "sources": [
+    {
+     "course": "CALC",
+     "role": "reference",
+     "match": "Erwin Kreyszig"
+    }
+   ]
+  },
+  {
+   "id": "zill-aem",
+   "title": "Advanced Engineering Mathematics",
+   "authors": "Dennis G. Zill, Warren S. Wright",
+   "edition": "4th",
+   "publisher": "Jones & Bartlett",
+   "isbn": "9789380108926",
+   "sources": [
+    {
+     "course": "CALC",
+     "role": "reference",
+     "match": "Dennis G. Zill"
+    }
+   ]
+  },
+  {
+   "id": "rosen-discrete",
+   "title": "Discrete Mathematics and Its Applications",
+   "authors": "Kenneth H. Rosen",
+   "edition": "7th",
+   "publisher": "McGraw Hill",
+   "year": 2012,
+   "sources": [
+    {
+     "course": "DM",
+     "role": "textbook",
+     "match": "Discrete Mathematics and Its Applications"
+    }
+   ]
+  },
+  {
+   "id": "tremblay-dms",
+   "title": "Discrete Mathematical Structures with Applications to Computer Science",
+   "authors": "Jean-Paul Tremblay, R. Manohar",
+   "publisher": "McGraw-Hill",
+   "corrected": "Handout spells the author Trembley.",
+   "sources": [
+    {
+     "course": "DM",
+     "role": "reference",
+     "match": "Discrete Mathematical Structures with Application"
+    }
+   ]
+  },
+  {
+   "id": "liu-elements",
+   "title": "Elements of Discrete Mathematics: A Computer Oriented Approach",
+   "authors": "C.L. Liu, D.P. Mohapatra",
+   "publisher": "Tata McGraw-Hill Education",
+   "sources": [
+    {
+     "course": "DM",
+     "role": "reference",
+     "match": "Elements of Discrete Mathematics"
+    }
+   ]
+  },
+  {
+   "id": "grimaldi-discrete",
+   "title": "Discrete and Combinatorial Mathematics",
+   "authors": "Ralph P. Grimaldi",
+   "publisher": "Addison Wesley",
+   "sources": [
+    {
+     "course": "DM",
+     "role": "reference",
+     "match": "Discrete and Combinatorial Mathematics"
+    }
+   ]
+  },
+  {
+   "id": "kolman-dms",
+   "title": "Discrete Mathematical Structures",
+   "authors": "Bernard Kolman, Robert C. Busby, Sharon C. Ross",
+   "publisher": "PHI Learning",
+   "sources": [
+    {
+     "course": "DM",
+     "role": "reference",
+     "match": "B. Kolman"
+    }
+   ]
+  },
+  {
+   "id": "bhattacharya-beee",
+   "title": "Basic Electrical and Electronics Engineering",
+   "authors": "S.K. Bhattacharya",
+   "edition": "2nd",
+   "publisher": "Pearson India",
+   "sources": [
+    {
+     "course": "BEEE",
+     "role": "textbook",
+     "match": "S.K. Bhattacharya"
+    }
+   ]
+  },
+  {
+   "id": "kothari-electronics",
+   "title": "Basic Electronics",
+   "authors": "D.P. Kothari, I.J. Nagrath",
+   "publisher": "McGraw Hill Education (India)",
+   "year": 2014,
+   "sources": [
+    {
+     "course": "BEEE",
+     "role": "textbook",
+     "match": "D.P. Kothari"
+    }
+   ]
+  },
+  {
+   "id": "bobrow-foundations",
+   "title": "Foundations of Electrical Engineering",
+   "authors": "Leonard S. Bobrow",
+   "publisher": "Oxford University Press",
+   "sources": [
+    {
+     "course": "BEEE",
+     "role": "reference",
+     "match": "Leonard S. Bobrow"
+    }
+   ]
+  },
+  {
+   "id": "sukhija-beee",
+   "title": "Basic Electrical and Electronics Engineering",
+   "authors": "M.S. Sukhija, T.K. Nagsarkar",
+   "publisher": "Oxford University Press",
+   "sources": [
+    {
+     "course": "BEEE",
+     "role": "reference",
+     "match": "M.S. Sukhija"
+    }
+   ]
+  },
+  {
+   "id": "gupta-beee",
+   "title": "Basic Electrical and Electronics Engineering",
+   "authors": "J.B. Gupta",
+   "publisher": "Katson",
+   "sources": [
+    {
+     "course": "BEEE",
+     "role": "reference",
+     "match": "J.B. Gupta"
+    }
+   ]
+  },
+  {
+   "id": "cormen-clrs",
+   "title": "Introduction to Algorithms",
+   "authors": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+   "edition": "3rd",
+   "publisher": "Prentice Hall of India",
+   "sources": [
+    {
+     "course": "DAA",
+     "role": "textbook",
+     "match": "Thomas H. Cormen"
+    }
+   ]
+  },
+  {
+   "id": "levitin-daa",
+   "title": "Introduction to the Design and Analysis of Algorithms",
+   "authors": "Anany Levitin",
+   "edition": "2nd",
+   "publisher": "Pearson",
+   "sources": [
+    {
+     "course": "DAA",
+     "role": "textbook",
+     "match": "Anany Levitin"
+    }
+   ]
+  },
+  {
+   "id": "baase-algorithms",
+   "title": "Computer Algorithms: Introduction to Design and Analysis",
+   "authors": "Sara Baase, Allen Van Gelder",
+   "edition": "3rd",
+   "publisher": "Pearson",
+   "corrected": "Handout spells the author Van Gelde.",
+   "sources": [
+    {
+     "course": "DAA",
+     "role": "reference",
+     "match": "Sara Baase"
+    }
+   ]
+  },
+  {
+   "id": "sedgewick-algorithms",
+   "title": "Algorithms",
+   "authors": "Robert Sedgewick, Kevin Wayne",
+   "edition": "4th",
+   "publisher": "Addison-Wesley Professional",
+   "sources": [
+    {
+     "course": "DAA",
+     "role": "reference",
+     "match": "Robert Sedgewick"
+    }
+   ]
+  },
+  {
+   "id": "kleinberg-design",
+   "title": "Algorithm Design",
+   "authors": "Jon Kleinberg, Éva Tardos",
+   "publisher": "Pearson",
+   "sources": [
+    {
+     "course": "DAA",
+     "role": "reference",
+     "match": "J. Kleinberg"
+    }
+   ]
+  },
+  {
+   "id": "aho-design",
+   "title": "The Design and Analysis of Computer Algorithms",
+   "authors": "Alfred V. Aho, John E. Hopcroft, Jeffrey D. Ullman",
+   "publisher": "Pearson",
+   "corrected": "Handout spells the author Hopcraft.",
+   "sources": [
+    {
+     "course": "DAA",
+     "role": "reference",
+     "match": "The Design and Analysis of Computer Algorithms"
+    }
+   ]
+  },
+  {
+   "id": "goodrich-design",
+   "title": "Algorithm Design: Foundations, Analysis and Internet Examples",
+   "authors": "Michael T. Goodrich, Roberto Tamassia",
+   "edition": "Student",
+   "publisher": "Wiley India",
+   "sources": [
+    {
+     "course": "DAA",
+     "role": "reference",
+     "match": "M. T. Goodrich"
+    }
+   ]
+  },
+  {
+   "id": "skiena-manual",
+   "title": "The Algorithm Design Manual",
+   "authors": "Steven S. Skiena",
+   "edition": "2nd",
+   "publisher": "Springer",
+   "sources": [
+    {
+     "course": "DAA",
+     "role": "reference",
+     "match": "Steven S Skiena"
+    }
+   ]
+  },
+  {
+   "id": "silberschatz-db",
+   "title": "Database System Concepts",
+   "authors": "Abraham Silberschatz, Henry F. Korth, S. Sudarshan",
+   "edition": "6th",
+   "publisher": "McGraw-Hill Education",
+   "uncertain": "Handout pairs 6th edition with 2019, which do not belong together, so the year is left out.",
+   "sources": [
+    {
+     "course": "DBMS",
+     "role": "textbook",
+     "match": "Database System Concepts"
+    }
+   ]
+  },
+  {
+   "id": "elmasri-db",
+   "title": "Fundamentals of Database Systems",
+   "authors": "Ramez Elmasri, Shamkant B. Navathe",
+   "edition": "7th",
+   "publisher": "Pearson Education",
+   "year": 2016,
+   "sources": [
+    {
+     "course": "DBMS",
+     "role": "textbook",
+     "match": "Fundamentals of Database Systems"
+    }
+   ]
+  },
+  {
+   "id": "ramakrishnan-db",
+   "title": "Database Management Systems",
+   "authors": "Raghu Ramakrishnan, Johannes Gehrke",
+   "edition": "3rd",
+   "publisher": "McGraw-Hill",
+   "year": 2003,
+   "sources": [
+    {
+     "course": "DBMS",
+     "role": "reference",
+     "match": "Database Management Systems, 3rd"
+    }
+   ]
+  },
+  {
+   "id": "date-db",
+   "title": "An Introduction to Database Systems",
+   "authors": "C.J. Date",
+   "edition": "8th",
+   "publisher": "Pearson Education",
+   "year": 2004,
+   "sources": [
+    {
+     "course": "DBMS",
+     "role": "reference",
+     "match": "An Introduction to Database Systems"
+    }
+   ]
+  },
+  {
+   "id": "connolly-db",
+   "title": "Database Systems: A Practical Approach to Design, Implementation, and Management",
+   "authors": "Thomas Connolly, Carolyn Begg",
+   "edition": "6th",
+   "publisher": "Pearson",
+   "year": 2014,
+   "sources": [
+    {
+     "course": "DBMS",
+     "role": "reference",
+     "match": "A Practical Approach to Design"
+    }
+   ]
+  },
+  {
+   "id": "forouzan-dcn",
+   "title": "Data Communications and Networking with TCP/IP Protocol Suite",
+   "authors": "Behrouz A. Forouzan",
+   "edition": "6th",
+   "publisher": "McGraw Hill",
+   "year": 2022,
+   "sources": [
+    {
+     "course": "DCCN",
+     "role": "textbook",
+     "match": "Behrouz A. Forouzan"
+    }
+   ]
+  },
+  {
+   "id": "tanenbaum-networks",
+   "title": "Computer Networks",
+   "authors": "Andrew S. Tanenbaum, David J. Wetherall",
+   "edition": "5th",
+   "publisher": "Pearson",
+   "year": 2013,
+   "sources": [
+    {
+     "course": "DCCN",
+     "role": "textbook",
+     "match": "Andrew S. Tanenbaum"
+    }
+   ]
+  },
+  {
+   "id": "kurose-networking",
+   "title": "Computer Networking: A Top-Down Approach",
+   "authors": "James F. Kurose, Keith W. Ross",
+   "edition": "6th",
+   "publisher": "Pearson",
+   "year": 2017,
+   "sources": [
+    {
+     "course": "DCCN",
+     "role": "reference",
+     "match": "A Top-Down Approach"
+    }
+   ]
+  },
+  {
+   "id": "peterson-networks",
+   "title": "Computer Networks: A Systems Approach",
+   "authors": "Larry L. Peterson, Bruce S. Davie",
+   "edition": "6th",
+   "publisher": "Morgan Kaufmann",
+   "year": 2021,
+   "corrected": "Handout prints the subtitle as A System Approach.",
+   "sources": [
+    {
+     "course": "DCCN",
+     "role": "reference",
+     "match": "Larry L. Peterson"
+    }
+   ]
+  },
+  {
+   "id": "tenenbaum-ds",
+   "title": "Data Structures Using C",
+   "authors": "Aaron M. Tenenbaum, Yedidyah Langsam, Moshe J. Augenstein",
+   "edition": "1st",
+   "publisher": "Pearson Education",
+   "year": 2019,
+   "sources": [
+    {
+     "course": "DSA",
+     "role": "textbook",
+     "match": "Data Structures Using C"
+    }
+   ]
+  },
+  {
+   "id": "horowitz-ds",
+   "title": "Fundamentals of Data Structures in C",
+   "authors": "Ellis Horowitz, Sartaj Sahni, Susan Anderson-Freed",
+   "edition": "2nd",
+   "publisher": "University Press",
+   "year": 2008,
+   "sources": [
+    {
+     "course": "DSA",
+     "role": "textbook",
+     "match": "Fundamentals of Data Structures in C"
+    }
+   ]
+  },
+  {
+   "id": "kruse-ds",
+   "title": "Data Structures and Program Design in C",
+   "authors": "Robert L. Kruse, Bruce P. Leung, Clovis L. Tondo, Shashi Mogalla",
+   "edition": "2nd",
+   "publisher": "Pearson",
+   "year": 2006,
+   "sources": [
+    {
+     "course": "DSA",
+     "role": "reference",
+     "match": "Data Structures and Program Design in C"
+    }
+   ]
+  },
+  {
+   "id": "lipschutz-ds",
+   "title": "Data Structures with C",
+   "authors": "Seymour Lipschutz",
+   "edition": "1st",
+   "publisher": "McGraw Hill Education",
+   "year": 2017,
+   "sources": [
+    {
+     "course": "DSA",
+     "role": "reference",
+     "match": "Data Structures with C"
+    }
+   ]
+  },
+  {
+   "id": "ghatak-optics",
+   "title": "Optics",
+   "authors": "Ajoy Ghatak",
+   "edition": "6th",
+   "publisher": "McGraw Hill Education (India)",
+   "year": 2017,
+   "sources": [
+    {
+     "course": "PHY",
+     "role": "textbook",
+     "match": "A. Ghatak, Optics"
+    }
+   ]
+  },
+  {
+   "id": "svelto-lasers",
+   "title": "Principles of Lasers",
+   "authors": "Orazio Svelto, D.C. Hanna",
+   "edition": "5th",
+   "publisher": "Springer",
+   "year": 2010,
+   "sources": [
+    {
+     "course": "PHY",
+     "role": "textbook",
+     "match": "Principles of lasers"
+    }
+   ]
+  },
+  {
+   "id": "griffiths-em",
+   "title": "Introduction to Electrodynamics",
+   "authors": "David J. Griffiths",
+   "edition": "4th",
+   "publisher": "Pearson",
+   "year": 2015,
+   "corrected": "Handout adds D. F. Schroeter, who is not an author of this title.",
+   "sources": [
+    {
+     "course": "PHY",
+     "role": "textbook",
+     "match": "Introduction to Electrodynamics"
+    }
+   ]
+  },
+  {
+   "id": "kittel-solid",
+   "title": "Introduction to Solid State Physics",
+   "authors": "Charles Kittel",
+   "edition": "8th",
+   "publisher": "John Wiley & Sons",
+   "year": 2005,
+   "sources": [
+    {
+     "course": "PHY",
+     "role": "textbook",
+     "match": "Introduction to Solid State Physics"
+    }
+   ]
+  },
+  {
+   "id": "serway-physics",
+   "title": "Physics for Scientists and Engineers with Modern Physics",
+   "authors": "Raymond A. Serway, John W. Jewett Jr.",
+   "edition": "9th",
+   "publisher": "Cengage Learning",
+   "year": 2014,
+   "sources": [
+    {
+     "course": "PHY",
+     "role": "reference",
+     "match": "Physics for Scientists and Engineers"
+    }
+   ]
+  },
+  {
+   "id": "young-physics",
+   "title": "Sears & Zemansky's University Physics with Modern Physics",
+   "authors": "Hugh D. Young, Roger A. Freedman, A. Lewis Ford",
+   "edition": "14th",
+   "publisher": "Addison-Wesley",
+   "year": 2015,
+   "sources": [
+    {
+     "course": "PHY",
+     "role": "reference",
+     "match": "University Physics with Modern Physics"
+    }
+   ]
+  },
+  {
+   "id": "thyagarajan-lasers",
+   "title": "Lasers: Fundamentals and Applications",
+   "authors": "K. Thyagarajan, Ajoy Ghatak",
+   "edition": "2nd",
+   "publisher": "Springer",
+   "year": 2010,
+   "sources": [
+    {
+     "course": "PHY",
+     "role": "reference",
+     "match": "Lasers: Fundamentals and Applications"
+    }
+   ]
+  },
+  {
+   "id": "jackson-em",
+   "title": "Classical Electrodynamics",
+   "authors": "John David Jackson",
+   "edition": "3rd",
+   "publisher": "Wiley",
+   "year": 2007,
+   "sources": [
+    {
+     "course": "PHY",
+     "role": "reference",
+     "match": "Classical Electrodynamics"
+    }
+   ]
+  },
+  {
+   "id": "beiser-modern",
+   "title": "Concepts of Modern Physics",
+   "authors": "Arthur Beiser",
+   "edition": "6th",
+   "publisher": "Tata McGraw-Hill Education",
+   "year": 2003,
+   "sources": [
+    {
+     "course": "PHY",
+     "role": "reference",
+     "match": "Concepts of Modern Physics"
+    }
+   ]
+  },
+  {
+   "id": "misra-iot",
+   "title": "Introduction to IoT",
+   "authors": "Sudip Misra, Anandarup Mukherjee, Arijit Roy",
+   "publisher": "Cambridge University Press",
+   "year": 2021,
+   "sources": [
+    {
+     "course": "IOT",
+     "role": "textbook",
+     "match": "Introduction to IoT"
+    }
+   ]
+  },
+  {
+   "id": "bahga-iot",
+   "title": "Internet of Things: A Hands-on Approach",
+   "authors": "Arshdeep Bahga, Vijay Madisetti",
+   "edition": "1st",
+   "publisher": "Universities Press India",
+   "year": 2016,
+   "sources": [
+    {
+     "course": "IOT",
+     "role": "textbook",
+     "match": "A Hands-on Approach"
+    }
+   ]
+  },
+  {
+   "id": "hanes-iot",
+   "title": "IoT Fundamentals: Networking Technologies, Protocols, and Use Cases for the Internet of Things",
+   "authors": "David Hanes, Gonzalo Salgueiro, Patrick Grossetete, Robert Barton, Jerome Henry",
+   "publisher": "Cisco Press",
+   "year": 2017,
+   "sources": [
+    {
+     "course": "IOT",
+     "role": "reference",
+     "match": "IoT Fundamentals"
+    }
+   ]
+  },
+  {
+   "id": "minoli-iot",
+   "title": "Building the Internet of Things with IPv6 and MIPv6",
+   "authors": "Daniel Minoli",
+   "publisher": "Wiley",
+   "year": 2013,
+   "sources": [
+    {
+     "course": "IOT",
+     "role": "reference",
+     "match": "Daniel Minoli"
+    }
+   ]
+  },
+  {
+   "id": "raschka-pyml",
+   "title": "Python Machine Learning: Machine Learning and Deep Learning with Python, scikit-learn, and TensorFlow 2",
+   "authors": "Sebastian Raschka, Vahid Mirjalili",
+   "publisher": "Packt Publishing",
+   "year": 2019,
+   "sources": [
+    {
+     "course": "ML",
+     "role": "textbook",
+     "match": "Python machine learning"
+    }
+   ]
+  },
+  {
+   "id": "alpaydin-ml",
+   "title": "Introduction to Machine Learning",
+   "authors": "Ethem Alpaydin",
+   "publisher": "MIT Press",
+   "year": 2020,
+   "sources": [
+    {
+     "course": "ML",
+     "role": "textbook",
+     "match": "Alpaydin"
+    }
+   ]
+  },
+  {
+   "id": "geron-handson",
+   "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+   "authors": "Aurélien Géron",
+   "publisher": "O'Reilly Media",
+   "year": 2022,
+   "sources": [
+    {
+     "course": "ML",
+     "role": "textbook",
+     "match": "Hands-on machine learning"
+    }
+   ]
+  },
+  {
+   "id": "bishop-prml",
+   "title": "Pattern Recognition and Machine Learning",
+   "authors": "Christopher M. Bishop",
+   "publisher": "Springer",
+   "year": 2006,
+   "corrected": "Handout adds Nasser M. Nasrabadi, who is the series editor rather than an author, and a stray volume number.",
+   "sources": [
+    {
+     "course": "ML",
+     "role": "reference",
+     "match": "Pattern recognition and machine learning"
+    }
+   ]
+  },
+  {
+   "id": "james-isl",
+   "title": "An Introduction to Statistical Learning: With Applications in Python",
+   "authors": "Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, Jonathan Taylor",
+   "publisher": "Springer Nature",
+   "year": 2023,
+   "sources": [
+    {
+     "course": "ML",
+     "role": "reference",
+     "match": "An introduction to statistical learning"
+    }
+   ]
+  },
+  {
+   "id": "silberschatz-os",
+   "title": "Operating System Concepts",
+   "authors": "Abraham Silberschatz, Peter B. Galvin, Greg Gagne",
+   "publisher": "Wiley India",
+   "sources": [
+    {
+     "course": "OS",
+     "role": "textbook",
+     "match": "A. Silberschatz, P. Galvin"
+    }
+   ]
+  },
+  {
+   "id": "nutt-os",
+   "title": "Operating Systems",
+   "authors": "Gary Nutt, Nabendu Chaki, Sarmistha Neogy",
+   "publisher": "Pearson Education",
+   "corrected": "Handout prints the title as Operating Systems Concepts.",
+   "uncertain": "The handout title differs from the published title, so please check it against the course coordinator's copy.",
+   "sources": [
+    {
+     "course": "OS",
+     "role": "reference",
+     "match": "Gary Nutt"
+    }
+   ]
+  },
+  {
+   "id": "stallings-os",
+   "title": "Operating Systems",
+   "authors": "William Stallings",
+   "publisher": "Pearson Education",
+   "sources": [
+    {
+     "course": "OS",
+     "role": "reference",
+     "match": "W. Stallings"
+    }
+   ]
+  },
+  {
+   "id": "dhamdhere-os",
+   "title": "Operating Systems: A Concept-Based Approach",
+   "authors": "D.M. Dhamdhere",
+   "publisher": "Tata McGraw-Hill",
+   "sources": [
+    {
+     "course": "OS",
+     "role": "reference",
+     "match": "Dhamdhere"
+    }
+   ]
+  },
+  {
+   "id": "sommerville-se",
+   "title": "Software Engineering",
+   "authors": "Ian Sommerville",
+   "edition": "9th",
+   "publisher": "Pearson",
+   "sources": [
+    {
+     "course": "SE",
+     "role": "textbook",
+     "match": "Ian Sommerville"
+    }
+   ]
+  },
+  {
+   "id": "pressman-se",
+   "title": "Software Engineering: A Practitioner's Approach",
+   "authors": "Roger S. Pressman",
+   "edition": "8th",
+   "publisher": "McGraw Hill",
+   "sources": [
+    {
+     "course": "SE",
+     "role": "textbook",
+     "match": "Roger S. Pressman"
+    }
+   ]
+  },
+  {
+   "id": "jawadekar-se",
+   "title": "Software Engineering: Principles and Practices",
+   "authors": "Waman S. Jawadekar",
+   "publisher": "McGraw Hill",
+   "sources": [
+    {
+     "course": "SE",
+     "role": "reference",
+     "match": "Waman S Jawadekar"
+    }
+   ]
+  },
+  {
+   "id": "fairley-se",
+   "title": "Software Engineering Concepts",
+   "authors": "Richard Fairley",
+   "edition": "Indian",
+   "publisher": "McGraw Hill Education",
+   "sources": [
+    {
+     "course": "SE",
+     "role": "reference",
+     "match": "Richard Fairley"
+    }
+   ]
+  },
+  {
+   "id": "jalote-se",
+   "title": "Software Engineering",
+   "authors": "Pankaj Jalote",
+   "edition": "3rd",
+   "publisher": "Narosa Publications",
+   "sources": [
+    {
+     "course": "SE",
+     "role": "reference",
+     "match": "Pankaj Jalote"
+    }
+   ]
+  }
+ ],
+ "rejectedCovers": {
+  "horowitz-ds": "shows the C++ book",
+  "kruse-ds": "shows the C++ book",
+  "james-isl": "an inside page",
+  "hayes-cao": "blank scan",
+  "thyagarajan-lasers": "blank scan",
+  "parashar-manufacturing": "a title page",
+  "nutt-os": "shows a different Nutt title",
+  "jalote-se": "shows a different Jalote title"
+ },
+ "coverNotes": {
+  "silberschatz-db": "Cover shows the 7th edition.",
+  "sommerville-se": "Cover shows the 7th edition.",
+  "stallings-coa": "Cover shows the 4th edition.",
+  "zill-first-de": "Cover shows the 10th edition.",
+  "connolly-db": "Cover shows the 5th edition.",
+  "pressman-se": "Cover shows the 9th edition.",
+  "serway-physics": "Cover shows the 6th edition.",
+  "date-db": "Cover shows an earlier edition.",
+  "elmasri-db": "Cover may show a different edition."
+ }
+}

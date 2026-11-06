@@ -1,0 +1,51 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Environment and credentials (keep the committed templates)
+.env
+.env.local
+.env.production
+.env.*.local
+!.env.example
+*.pem
+*.key
+
+# Runtime data: uploaded photos, database dumps and backups
+server/uploads/
+# Downloaded Open Library covers for the example listings (kept locally; the site falls back to generated covers)
+server/demo/covers/
+*.bson
+dump/
+backup*/
+*.backup.json
+
+# Test output generated at runtime
+e2e/test-results/
+e2e/playwright-report/
+playwright/.cache/
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+*.tmp
+*.swp
+~$*
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Course material and local notes, not part of the application
+course-handouts of Subjects/
+docs/
+design ref/
+PROGRESS.md
+*.pdf
+*.docx
+*.pptx

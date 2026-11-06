@@ -1,0 +1,430 @@
+[
+ {
+  "file": "AI - Updated (1).pdf",
+  "lineCount": 203,
+  "sections": [
+   {
+    "heading": "Textbook:",
+    "lines": [
+     "1. Stuart Russel and Peter Norvig, “Artificial Intelligence – A Modern Approach”, Pearson.",
+     "2. Elaine Rich, Kevin Knight, and Shivshankar B Nair, “Artificial Intelligence”, McGraw Hill",
+     "3. Generative Deep Learning: Teaching Machines to Paint, Write, Compose, and Play” by David Foster,",
+     "O'Reilly Media. Second edition: June 6, 2023 (ISBN: 978-1098134181).",
+     "4. Generative AI with LangChain: Build large language model (LLM) apps with Python, ChatGPT, and",
+     "other LLMs\" by Ben Auffarth, Packt Publishing, first edition: December 22, 2023 (ISBN-13:",
+     "978-1835083468)",
+     "5. Build a Large Language Model (From Scratch)\" by Sebastian Raschka, Manning Publications, 1st",
+     "Edition, ISBN-13: 978-1633437166",
+     "6. Language Models: From Scratch to GPT-3\" by Gabriel Garcia, Packt Publishing. ISBN: 978-1801815861"
+    ]
+   },
+   {
+    "heading": "Reference Books:",
+    "lines": [
+     "1. George F. Luger, Artificial Intelligence: Structures and Strategies for Complex Problem Solving, Pearson",
+     "2. David L. Poole and Alan K. Mackworth, Python code for Artificial Intelligence: Foundations of",
+     "Computational Agents, Cambridge University Press.",
+     "3. Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz",
+     "Kaiser, and Illia Polosukhin. \"Attention is all you need.\" Advances in neural information processing",
+     "systems 30 (2017). [Research Paper]",
+     "4. Programming PyTorch for Deep Learning – Ian Pointer, O'Reilly, 2020. Covers PyTorch basics, which is",
+     "essential for implementing Transformers and generative AI models.",
+     "5. Yenduri, Gokul, Gautam Srivastava, Praveen Kumar Reddy Maddikunta, Rutvij H. Jhaveri, Weizheng",
+     "Wang, Athanasios V. Vasilakos, and Thippa Reddy Gadekallu. \"Generative Pre-trained Transformer: A",
+     "Comprehensive Review on Enabling Technologies, Potential Applications."
+    ]
+   }
+  ]
+ },
+ {
+  "file": "Batch 2024_Course Handout_Linear Algebra & Differential Equations_OddSem-2025-26.pdf",
+  "lineCount": 351,
+  "sections": [
+   {
+    "heading": "Textbooks (TB)",
+    "lines": [
+     "1. D. Poole, Linear Algebra: A Modern Introduction, 4th Edition, ISBN-13: 978-1-285-46324-7,",
+     "Cengage Learning, 2015.",
+     "Odd Semester AY 2025-26",
+     "2. Zill D. G., A First Course in Differential Equations with Modelling Applications, 11th Edition.",
+     "ISBN-13: 978-0-495-10824-5, Brooks/Cole, Cengage Learning, 2010."
+    ]
+   },
+   {
+    "heading": "Reference Books (RB)",
+    "lines": [
+     "● David C. Lay, Linear Algebra and Its Applications, ISBN: 978-81-775-8333-5, 3rd Edition, Pearson,",
+     "2014.",
+     "● Seymour Lipschutz & Marc Lipson, Schaum's Outline of Linear Algebra, ISBN: 978-0071794565,",
+     "5th Edition, McGraw-Hill, 2014.",
+     "● Simmons G.F, Differential Equations with Applications and Historical Notes, ISBN: 13:978-1-4987-",
+     "0259-1, 3rd edition, CRC press, Taylor & Francis Group, 2017."
+    ]
+   }
+  ]
+ },
+ {
+  "file": "BDA_CSE 3712_ProjectBased.pdf",
+  "lineCount": 232,
+  "sections": [
+   {
+    "heading": "Textbooks / Key References:",
+    "lines": [
+     "• Big Data and Analysis, Seema Acrharya and Subhashini, Wiley, First Ed., 2015."
+    ]
+   },
+   {
+    "heading": "Reference Links:",
+    "lines": [
+     "• Jason Kolb and Jeremy Kolb, The Big Data Revolution, 2013, CreateSpace Independent Publishing",
+     "Platform.",
+     "• Hadoop in Action, Chuck lam, Dream tech press, reprint ed., 2016."
+    ]
+   }
+  ]
+ },
+ {
+  "file": "COA_CSE2709.pdf",
+  "lineCount": 150,
+  "sections": [
+   {
+    "heading": "Textbook:",
+    "lines": [
+     "1. M. Morris Mano (2017). “Computer System Architecture”, Pearson, revised 3rd edition.",
+     "2. William Stallings (2013). “Computer Organization and Architecture”, Pearson, 5th edition.",
+     "3. John L Hennessy & David A Patterson (2012). “Computer Architecture: A Quantitative Approach,",
+     "Morgan Kaufmann, 3rd edition."
+    ]
+   },
+   {
+    "heading": "Reference Books:",
+    "lines": [
+     "1. John P. Hayes (2017), “Computer Architecture and Organization”, Mc Graw Hill Education, 3rd",
+     "edition.",
+     "2. V. Carl Hamacher, Zvonko G. Vranesic, Safwat G. Zaky (1996), “Computer Organization”,",
+     "McGraw Hill Education (ISE Editions), 4th edition."
+    ]
+   }
+  ]
+ },
+ {
+  "file": "Course Handout-RM.docx",
+  "lineCount": 153,
+  "sections": [
+   {
+    "heading": "Books:",
+    "lines": [
+     "Nagendra Parashar, B.S. and Mittal, R.K., Elements of Manufacturing Processes, PHI Learning Private Limited, New Delhi, ISBN: 9788120319583, 2015.",
+     "N D Bhatt, Engineering drawing, Charotar Publishing House Pvt. Ltd."
+    ]
+   },
+   {
+    "heading": "Reference Book:",
+    "lines": [
+     "Kalpakjian, S. and Schmid, S. R., Manufacturing Engineering and Technology, 4th Ed, Pearson India, ISBN: 9788177581706, 2001.",
+     "D.M. Kulkarni, A.P. Rastogi and A. K. Sarkar, “Engineering Graphics with AutoCAD”, PHI Learning Private Limited, New Delhi."
+    ]
+   }
+  ]
+ },
+ {
+  "file": "Course-Handout_Calculus for Engineers-OddSem-2024-25_Final.pdf",
+  "lineCount": 235,
+  "sections": [
+   {
+    "heading": "Textbooks (TB)",
+    "lines": [
+     "1. THOMAS' CALCULUS, George B. Thomas Jr., Maurice D. Weir, Joel R. Hass, ISBN: 978-0134439020, 14th",
+     "Edition, Pearson, 2018"
+    ]
+   },
+   {
+    "heading": "Reference Books (RB)",
+    "lines": [
+     "1. ADVANCED ENGINEERING MATHEMATICS, Erwin Kreyszig, ISBN: 978-0470458365, 10th Edition,",
+     "W iley India, 2011",
+     "2. ADVANCED ENGINEERING MATHEMATICS, Dennis G. Zill, Warren S. Wright, ISBN: 978-93-80108-",
+     "92-6, 4th Edition, Jones & Bartlett"
+    ]
+   }
+  ]
+ },
+ {
+  "file": "Course-Handout_Discrete Mathematics-EvenSem-2024-25.pdf",
+  "lineCount": 316,
+  "sections": [
+   {
+    "heading": "Textbooks:",
+    "lines": [
+     "1. Kenneth Rosen, Discrete Mathematics and Its Applications, 7th Ed, McGraw Hill Publishing Co.,",
+     "2012."
+    ]
+   },
+   {
+    "heading": "Reference Books:",
+    "lines": [
+     "1. Jean Paul Trembley, R. Manohar, Discrete Mathematical Structures with Application to Computer",
+     "Science, McGraw-Hill.",
+     "2. C. Liu and D. Mohapatra, Elements of Discrete Mathematics: A Computer Oriented Approach, Tata",
+     "McGraw-Hill Education.",
+     "3. R.P. Grimaldi, “Discrete and Combinatorial Mathematics”, Addison Wesley.",
+     "4. B. Kolman, R.C. Busby, and S.C. Ross, “Discrete Mathematical Structures”, PHI Learning Private",
+     "Limited, India"
+    ]
+   }
+  ]
+ },
+ {
+  "file": "Course_Handout_ECE 1101 BEEE_2025 (1).docx",
+  "lineCount": 215,
+  "sections": [
+   {
+    "heading": "Textbook:",
+    "lines": [
+     "“Basic Electrical and Electronics Engineering”, Second Edition, S.K. Bhattacharya, Pearson India Education Services Pvt. Ltd.",
+     "D.P. Kothari, I. J. Nagrath, “Basic Electronics”, McGraw Hill Education (India) Private Limited, 2014."
+    ]
+   },
+   {
+    "heading": "Reference Book:",
+    "lines": [
+     "“Foundations of Electrical Engineering” Leonard S. Bobrow, Oxford.",
+     "“Basic Electrical and Electronics Engineering”, M.S. Sukhija & T.K. Nagsarkar, Oxford University Press.",
+     "“Basic Electrical and Electronics Engineering” J.B. Gupta, Katson."
+    ]
+   }
+  ]
+ },
+ {
+  "file": "DAA -4th Sem 2025_26_course_handouts (1).docx",
+  "lineCount": 151,
+  "sections": [
+   {
+    "heading": "Text Book:",
+    "lines": [
+     "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein; “Introduction to",
+     "Algorithms”, 3rd Ed., Prentice Hall of India.",
+     "Anany Levitin; “Introduction to the Design and Analysis of Algorithms”, 2nd Ed. Pearson."
+    ]
+   },
+   {
+    "heading": "Reference Book:",
+    "lines": [
+     "Sara Baase and Allen Van Gelde; \"Computer Algorithms: Introduction to Design and Analysis, 3rd Ed., Pearson.",
+     "Robert Sedgewick and Kevin Wayne, “Algorithms”, 4th Ed., Addison-Wesley Professional.",
+     "J. Kleinberg, E Tardos; “Algorithm Design”, Pearson,",
+     "A. V. Aho, J. E. Hopcraft, J. D. Ullman, “The Design and Analysis of Computer Algorithms” Pearson.",
+     "M. T. Goodrich and R. Tamassia, “Algorithm Design – Foundations, Analysis and Internet Examples”, Student Ed., Wiley India Pvt. Ltd.",
+     "Steven S Skiena, The Algorithm Design Manual, 2nd Ed. Springer Verlag."
+    ]
+   },
+   {
+    "heading": "Reference Links: These are a few online resources available for further studies:",
+    "lines": []
+   }
+  ]
+ },
+ {
+  "file": "DBMS_CSE2021_v2.pdf",
+  "lineCount": 273,
+  "sections": [
+   {
+    "heading": "Textbooks:",
+    "lines": [
+     "1. Silberschatz, A., Korth, H. F., and Sudarshan, S.",
+     "Database System Concepts, 6th Edition, McGraw-Hill Education, 2019.",
+     "2. Elmasri, R. and Navathe, S. B.",
+     "Fundamentals of Database Systems, 7th Edition, Pearson Education, 2016."
+    ]
+   },
+   {
+    "heading": "Reference Books:",
+    "lines": [
+     "1. Ramakrishnan, R. and Gehrke, J.",
+     "Database Management Systems, 3rd Edition, McGraw-Hill, 2003.",
+     "2. Date, C. J.",
+     "An Introduction to Database Systems, 8th Edition, Pearson Education, 2004.",
+     "3. Connolly, T. and Begg, C.",
+     "Database Systems: A Practical Approach to Design, Implementation, and Management, 6th",
+     "Edition, Pearson, 2014."
+    ]
+   }
+  ]
+ },
+ {
+  "file": "DCCN_CSE2009_Handout.pdf",
+  "lineCount": 156,
+  "sections": [
+   {
+    "heading": "Textbook:",
+    "lines": [
+     "1. Behrouz A. Forouzan (2022). “Data Communications and Networking with TCPIP Protocol",
+     "Suite”, McGraw Hill, 6th edition.",
+     "2. Andrew S. Tanenbaum and David J. Wetherall (2013). “Computer Networks”, Pearson, 5th edition."
+    ]
+   },
+   {
+    "heading": "Reference Books:",
+    "lines": [
+     "1. James F. Kurose and Keith W. Ross (2017). “Computer Networking: A Top-Down Approach”,",
+     "Pearson, 6th edition.",
+     "2. Larry L. Peterson and Bruce S. Davie (2021). “Computer Networks: A System Approach”,",
+     "Morgan Kaufmann Series, 6th edition."
+    ]
+   }
+  ]
+ },
+ {
+  "file": "DSA_Course_Handout_2025_2026 (1).pdf",
+  "lineCount": 157,
+  "sections": [
+   {
+    "heading": "Textbook:",
+    "lines": [
+     "1. Data Structures Using C; Aaron M. Tenenbaum, Y. Langsam and M. J. Augenstein; Pearson",
+     "Education; Ed. First, 2019.",
+     "2. Fundamentals of Data Structures in C, Horowitz, Sahni, and Anderson-Freed- University",
+     "press, Ed. Second, 2008."
+    ]
+   },
+   {
+    "heading": "Reference Books:",
+    "lines": [
+     "3. Data Structures and Program Design in C; Robert L. Kruse, Bruce P. Leung, Clovis L. Tondo",
+     "and Shashi Mogalla; Pearson, Ed. Second, 2006.",
+     "4. Data Structures with C, Seymour Lipschutz, Schaum's Outline Series, McGraw Hill Education,",
+     "Ed. First 2017."
+    ]
+   }
+  ]
+ },
+ {
+  "file": "Handout PHY1101, Engineering Physics, 2nd sem 2024-25.pdf",
+  "lineCount": 198,
+  "sections": [
+   {
+    "heading": "Textbook:",
+    "lines": [
+     "1. A. Ghatak, Optics, 6th edition. New Delhi: McGraw Hill Education (India) Private Limited, 2017.",
+     "2. O. Svelto, D. C. Hanna, Principles of lasers, 5th edition. Milan: Springer, 2010.",
+     "3. D. J. Griffiths, D. F. Schroeter, Introduction to Electrodynamics, 4th edition. Pearson, 2015.",
+     "4. C. Kittel, Introduction to Solid State Physics, 8th edition. Hoboken, NJ: John Wiley & Sons, Ltd., 2005."
+    ]
+   },
+   {
+    "heading": "Reference Books:",
+    "lines": [
+     "5. R. A. Serway, J. W. Jewett, Jr., Physics for Scientists and Engineers with Modern Physics, 9th edition.",
+     "Boston: Cengage Learning, 2014.",
+     "6. H. D. Young, R. A. Freedman, A. L. Ford, Sears & Zemansky's University Physics with Modern Physics,",
+     "14th Edition. Addison-Wesley, 2015.",
+     "7. K. Thyagarajan, A. Ghatak, Lasers: Fundamentals and Applications, 2nd Ed., New York: Springer, 2010.",
+     "8. J. D. Jackson, Classical Electrodynamics, 3rd edition. Wiley, 2007.",
+     "9. A. Beiser, Concepts of Modern Physics, 6th edition. New York: Tata McGraw-Hill Education, 2003."
+    ]
+   }
+  ]
+ },
+ {
+  "file": "Handout_CSE3722 IoT Networks, Architectures and Applications-CSE 2024 Batch.pdf",
+  "lineCount": 175,
+  "sections": [
+   {
+    "heading": "Textbooks:",
+    "lines": [
+     "(T1): “Introduction to IoT” by Sudip Misra, Anandarup Mukherjee and Arijit Roy. Cambridge",
+     "University Press, 2021 edition.",
+     "(T2): “Internet of Things: A Hands-on Approach” by Arshdeep Bahga and Vijay Madisetti. Universities",
+     "Press India Pvt. Ltd., 1st edition (2016)."
+    ]
+   },
+   {
+    "heading": "Reference Book:",
+    "lines": [
+     "(R1): “IoT Fundamentals: Networking Technologies, Protocols, and Use Cases for the Internet of",
+     "Things” by David Hanes, Gonzalo Salgueiro, Patrick Grossetete, Robert Barton and Jerome Henry.",
+     "Cisco Press, 2017 Cisco Systems, Inc.",
+     "(R2): “Building The Internet of Things with IPv6 and MIPv6: The Evolving World of M2M",
+     "Communications” by Daniel Minoli. Wiley, 2013 by John Wiley & Sons, Inc."
+    ]
+   }
+  ]
+ },
+ {
+  "file": "Machine Learning_Course Handout_July - December 2026-1.pdf",
+  "lineCount": 195,
+  "sections": [
+   {
+    "heading": "Textbooks:",
+    "lines": [
+     "1. Raschka, Sebastian, and Vahid Mirjalili. Python machine learning: Machine learning and deep learning",
+     "with Python, scikit-learn, and TensorFlow 2. Packt publishing ltd, 2019.",
+     "2. Alpaydin, Ethem. Introduction to machine learning. MIT press, 2020.",
+     "3. Géron, Aurélien. Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow. \" O'Reilly",
+     "Media, Inc.\", 2022."
+    ]
+   },
+   {
+    "heading": "Reference Books:",
+    "lines": [
+     "1. Bishop, Christopher M., and Nasser M. Nasrabadi. Pattern recognition and machine learning. Vol. 4.",
+     "No. 4. New York: springer, 2006.",
+     "2. James, Gareth, et al. An introduction to statistical learning: With applications in python. Springer",
+     "Nature, 2023."
+    ]
+   }
+  ]
+ },
+ {
+  "file": "OS_CSE2024-1.pdf",
+  "lineCount": 167,
+  "sections": [
+   {
+    "heading": "Textbook:",
+    "lines": [
+     "1. Operating Systems Concepts – A. Silberschatz, P. Galvin and G. Gagne. Wiley India [Complete syllabus",
+     "(100%) is being covered from the textbook]"
+    ]
+   },
+   {
+    "heading": "Refernce Books:",
+    "lines": [
+     "1. Operating Systems Concepts - Gary Nutt, N. Chaki and S. Neogy, Pearson Education",
+     "2. Operating Systems – W. Stallings, Pearson Education",
+     "3. Operating Systems: A Concept-based Approach – D. M. Dhamdhere, Tata McGraw-Hill"
+    ]
+   },
+   {
+    "heading": "Reference Links:",
+    "lines": [
+     "Due to the ever-changing nature of the web, current material that is freely available will be relied upon, including",
+     "software documentation, blog posts, tutorials, and more. Links to the readings will be provided on a weekly basis",
+     "in addition to the following online course:",
+     "NPTEL Operating Course Link:",
+     "https://www.youtube.com/watch?v=jciGIvn7UfM&list=PLyqSpQzTE6M9SYI5RqwFYtFYab94gJpWk"
+    ]
+   }
+  ]
+ },
+ {
+  "file": "SE_CSE3005 - July-Dec,2026-1.pdf",
+  "lineCount": 170,
+  "sections": [
+   {
+    "heading": "Textbooks:",
+    "lines": [
+     "1. Ian Sommerville, “Software Engineering”, 9th edition, Pearson.",
+     "2. Roger S. Pressman, Software Engineering: A Practitioner's Approach, McGraw Hill, 8th edition"
+    ]
+   },
+   {
+    "heading": "Reference Book:",
+    "lines": [
+     "3. Waman S Jawadekar, “Software Engineering – Principles and Practices”, McGraw Hill Companies.",
+     "4. Richard Fairley, “Software Engineering Concepts”, McGraw Hill Education, Indian edition",
+     "5. Pankaj Jalote, “Software Engineering”, Narosa Publications, 3rd edition"
+    ]
+   }
+  ]
+ }
+]

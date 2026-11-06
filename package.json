@@ -1,0 +1,27 @@
+{
+  "name": "academic-book-marketplace",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "server",
+    "client",
+    "e2e"
+  ],
+  "engines": {
+    "node": ">=22.9"
+  },
+  "scripts": {
+    "dev": "concurrently -n api,web -c cyan,green \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w client",
+    "start": "npm start -w server",
+    "create-admin": "npm run create-admin -w server",
+    "seed:demo": "npm run seed:demo -w server",
+    "demo:remove": "npm run demo:remove -w server",
+    "migrate:subjects": "npm run migrate:subjects -w server --",
+    "test": "npm test -w server",
+    "test:e2e": "npm test -w e2e"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}
