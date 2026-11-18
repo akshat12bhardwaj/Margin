@@ -6,6 +6,7 @@ coverage/
 
 # Environment and credentials (keep the committed templates)
 .env
+.env.*
 .env.local
 .env.production
 .env.*.local
@@ -43,9 +44,25 @@ desktop.ini
 
 # Course material and local notes, not part of the application
 course-handouts of Subjects/
-docs/
 design ref/
 PROGRESS.md
+PROJECT_CONTEXT.md
 *.pdf
 *.docx
 *.pptx
+
+# Preserve raw local test output; publish reviewed, sanitised evidence instead.
+/docs/04-Testing/evidence/api-tests.txt
+/docs/04-Testing/evidence/browser-tests.txt
+
+# Publish the final report and useful vector diagrams. Keep local reviews and audits private.
+/reports/*
+!/reports/Margin_Software_Engineering_Project_Report.pdf
+!/reports/Margin_Software_Engineering_Project_Report.docx
+!/reports/MongoDB_Schema_Explanation.md
+!/reports/Research_Evidence.md
+!/reports/assets/
+/reports/assets/*
+!/reports/assets/mongodb-schema.svg
+!/reports/assets/dfd-level0.svg
+!/reports/assets/dfd-level1-trade.svg

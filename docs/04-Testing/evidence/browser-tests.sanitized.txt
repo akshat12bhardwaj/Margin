@@ -1,0 +1,35 @@
+Run: 2026-11-06 21:12 IST
+
+> academic-book-marketplace@1.0.0 test:e2e
+> npm test -w e2e --reporter=list
+
+npm warn Unknown cli config "--reporter". This will stop working in the next major version of npm.
+
+> e2e@1.0.0 test
+> playwright test
+
+[WebServer] MongoDB connected: academic_marketplace_e2e
+[WebServer] API listening on http://localhost:5055
+
+Running 16 tests using 1 worker
+
+  ok  1 [chromium] › tests\marketplace.spec.js:76:3 › marketplace › protected and admin routes are guarded in the UI (561ms)
+  ok  2 [chromium] › tests\marketplace.spec.js:87:3 › marketplace › registration, validation errors and login (1.3s)
+  ok  3 [chromium] › tests\marketplace.spec.js:111:3 › marketplace › student and faculty can list books, with photo validation (1.6s)
+  ok  4 [chromium] › tests\marketplace.spec.js:140:3 › marketplace › browse: search, filters, sorting, category link (1.7s)
+  ok  5 [chromium] › tests\marketplace.spec.js:210:3 › marketplace › purchase workflow with messages, wishlist and notifications (3.0s)
+  ok  6 [chromium] › tests\marketplace.spec.js:307:3 › marketplace › listing management: edit, deactivate, reactivate, delete (876ms)
+  ok  7 [chromium] › tests\marketplace.spec.js:337:3 › marketplace › buy now: full-price request, seller accepts, chat stays open, seller confirms the exchange (1.3s)
+  ok  8 [chromium] › tests\marketplace.spec.js:391:3 › marketplace › reports, moderation, suspension and role isolation (2.5s)
+[Development test reset-link output omitted]
+  ok  9 [chromium] › tests\marketplace.spec.js:493:3 › marketplace › forgot password page and profile editing (1.1s)
+  ok 10 [chromium] › tests\marketplace.spec.js:526:3 › marketplace › sample data: seeded listings are labelled, searchable and cannot be reported (2.5s)
+  ok 11 [chromium] › tests\marketplace.spec.js:573:3 › marketplace › an automated example seller answers chat and negotiates, without switching accounts (1.4s)
+  ok 12 [chromium] › tests\marketplace.spec.js:610:3 › marketplace › home showcase: three covers only, spotlight on hover, each opens its own listing before and after rotation (18.4s)
+  ok 13 [chromium] › tests\marketplace.spec.js:687:3 › marketplace › responsive: no horizontal overflow on any page at phone, tablet, laptop and desktop (43.8s)
+  ok 14 [chromium] › tests\marketplace.spec.js:710:3 › marketplace › the mobile menu opens and every item works (302ms)
+  ok 15 [chromium] › tests\marketplace.spec.js:726:3 › marketplace › no uncaught browser errors happened during the whole run (2ms)
+
+  ok 16 [chromium] › tests\marketplace.spec.js:730:3 › marketplace › removing sample data keeps real members and listings (527ms)
+
+  16 passed (1.4m)

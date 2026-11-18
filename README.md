@@ -65,7 +65,7 @@ Create a student or faculty account, then publish a listing with up to six photo
 
 ## Run locally
 
-Requires **Node.js 22.9+** and a running **MongoDB 6.0+** instance. From the repository root:
+Requires **Node.js 22.12+** and a running **MongoDB 6.0+** instance. From the repository root:
 
 ```bash
 npm install
@@ -93,6 +93,12 @@ Open [localhost:5173](http://localhost:5173). The API runs on port 5000 by defau
 
 </details>
 
+## Documentation
+
+Read the [final project report (PDF)](reports/Margin_Software_Engineering_Project_Report.pdf) or its [editable Word version](reports/Margin_Software_Engineering_Project_Report.docx). The [Software Engineering documentation](docs/README.md) includes the SRS, MoSCoW priorities, design, planning and test traceability.
+
+The [MongoDB schema guide](reports/MongoDB_Schema_Explanation.md) explains the nine collections, references and unique indexes, with a [printable relationship diagram](reports/assets/mongodb-schema.svg). See the [publication checks](docs/04-Testing/evidence/publication-checks-2026-11-18.md) for the latest verification results.
+
 ## Project structure
 
 ```text
@@ -103,6 +109,8 @@ server/
   scripts/    Demo data and administration commands
 shared/       Subject catalogue used by the client and API
 e2e/          Playwright browser tests
+docs/         Requirements, design diagrams, planning, and test evidence
+reports/      Final academic report and database schema documentation
 ```
 
 ---

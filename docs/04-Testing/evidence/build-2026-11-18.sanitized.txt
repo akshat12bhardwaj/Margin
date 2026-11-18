@@ -1,0 +1,45 @@
+Run date: 18 November 2026 (IST)
+
+> academic-book-marketplace@1.0.0 build
+> npm run build -w client
+
+
+> client@1.0.0 build
+> vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 61 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                     0.69 kB │ gzip:   0.41 kB
+dist/assets/dm-mono-latin-ext-400-normal-1aZr6b2b.woff              7.50 kB
+dist/assets/dm-mono-latin-ext-400-normal-C2zvOubV.woff2             9.55 kB
+dist/assets/instrument-serif-latin-ext-400-normal-CFCUzsTy.woff     9.86 kB
+dist/assets/inter-vietnamese-wght-normal-CBcvBZtf.woff2            10.25 kB
+dist/assets/instrument-serif-latin-ext-400-italic-D7-lnxEk.woff    10.50 kB
+dist/assets/dm-mono-latin-400-normal--0xN8mdc.woff                 11.21 kB
+dist/assets/inter-greek-ext-wght-normal-DlzME5K_.woff2             11.23 kB
+dist/assets/fraunces-vietnamese-wght-normal-CnvboYUG.woff2         11.57 kB
+dist/assets/instrument-serif-latin-ext-400-normal-C2je3j2s.woff2   11.60 kB
+dist/assets/instrument-serif-latin-ext-400-italic-C9HzH3YL.woff2   12.38 kB
+dist/assets/dm-mono-latin-400-normal-4GdczIuU.woff2                14.82 kB
+dist/assets/instrument-serif-latin-400-normal-BVbkICAY.woff        18.33 kB
+dist/assets/inter-cyrillic-wght-normal-DqGufNeO.woff2              18.74 kB
+dist/assets/inter-greek-wght-normal-CkhJZR-_.woff2                 18.99 kB
+dist/assets/instrument-serif-latin-400-italic-u__WvvIK.woff        19.26 kB
+dist/assets/instrument-serif-latin-400-normal-DnYpCC2O.woff2       21.03 kB
+dist/assets/instrument-serif-latin-400-italic-DKMiL14s.woff2       22.12 kB
+dist/assets/inter-cyrillic-ext-wght-normal-BOeWTOD4.woff2          25.96 kB
+dist/assets/fraunces-latin-ext-wght-normal-Ca2vKHc0.woff2          33.58 kB
+dist/assets/fraunces-latin-wght-normal-ukD16Tqj.woff2              36.62 kB
+dist/assets/inter-latin-wght-normal-Dx4kXJAl.woff2                 48.25 kB
+dist/assets/inter-latin-ext-wght-normal-DO1Apj_S.woff2             85.06 kB
+dist/assets/index-CR3N5g5m.css                                     46.93 kB │ gzip:  10.29 kB
+dist/assets/index-D1bf_SRr.js                                     372.54 kB │ gzip: 111.49 kB
+
+✓ built in 3.11s
+[PLUGIN_TIMINGS] JavaScript callbacks ran for 3.0s of this 3.1s build (96%).
+1 callback is listed without a time. Its calls overlapped, so the time inside one call includes work from other calls. To find its cost, profile the build with `node --cpu-prof`:
+  - plugin vite:css transform (6 calls)
+See https://rolldown.rs/reference/InputOptions.checks#bundlertimings for more details.

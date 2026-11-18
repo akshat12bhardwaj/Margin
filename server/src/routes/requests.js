@@ -80,11 +80,11 @@ requestsRouter.get(
 );
 
 // Compare-and-set: the filter pins status (and, for offers, whose turn and the amount), so of two racing actions only one wins.
-function transition(request, filter, to, by, note, set = {}) {
+function transition(request, filter, to, by, note, returnDocument = 'after') {
   return PurchaseRequest.findOneAndUpdate(
     { _id: request._id, ...filter },
-    { status: to, ...set, $push: { history: { status: to, by, note, amount: set.price ?? request.price } } },
-    { returnDocument: 'after' },
+    { status: to, $push: { history: { status: to, by, note, amount: request.price } } },
+    { returnDocument },
   );
 }
 
@@ -168,9 +168,15 @@ action(
 );
 
 action('cancel', 'either', async (request, req) => {
-  const updated = await transition(request, { status: { $in: OPEN_REQUEST_STATUSES } }, 'cancelled', req.user._id, req.data.note);
-  if (!updated) throw invalid(request);
-  if (request.status === 'accepted') await Book.updateOne({ _id: request.book._id, status: 'reserved' }, { status: 'active' });
+  if (!OPEN_REQUEST_STATUSES.includes(request.status)) throw invalid(request);
+  // Acceptance can commit after the route reads the request. Release based on the state this write replaced.
+  const previous = await transition(
+    request, { status: { $in: OPEN_REQUEST_STATUSES }, price: request.price },
+    'cancelled', req.user._id, req.data.note, 'before',
+  );
+  if (!previous) throw changed();
+  if (previous.status === 'accepted') await Book.updateOne({ _id: request.book._id, status: 'reserved' }, { status: 'active' });
+  const updated = await PurchaseRequest.findById(request._id);
   await postEvent(updated, req.user, 'cancelled', 'Cancelled the request', req.data.note);
   await notify(otherParty(request, req.user._id), 'request', `${req.user.name} cancelled the request for "${request.book.title}".`, '/transactions');
   return updated;

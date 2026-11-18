@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="715" viewBox="0 0 820 715">
+<defs><marker id="arrow" viewBox="0 0 12 10" refX="12" refY="5" markerWidth="11" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L12 5L0 10Z" fill="black"/></marker></defs>
+<rect width="820" height="715" fill="white"/>
+<rect x="10" y="46" width="140" height="80" fill="white" stroke="black" stroke-width="2"/>
+<text x="80.000" y="81.820" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="black">
+<tspan x="80.000" dy="0">Visitor /</tspan>
+<tspan x="80.000" dy="18.36">member*</tspan>
+</text>
+<circle cx="409" cy="86" r="57" fill="white" stroke="black" stroke-width="2"/>
+<text x="409.000" y="72.640" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="black">
+<tspan x="409.000" dy="0">1.0</tspan>
+<tspan x="409.000" dy="18.36">Manage</tspan>
+<tspan x="409.000" dy="18.36">accounts</tspan>
+</text>
+<path d="M150.0000 68H354.9167" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="252.458" y="61.000" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="black">
+<tspan x="252.458" dy="0">Account details</tspan>
+</text>
+<path d="M354.9167 104H150.0000" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="252.458" y="125.000" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="black">
+<tspan x="252.458" dy="0">Session / profile</tspan>
+</text>
+<path d="M808 51.0H664V121.0H808" fill="none" stroke="black" stroke-width="2"/>
+<text x="736.000" y="82.360" font-family="Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="black">
+<tspan x="736.000" dy="0">D1</tspan>
+<tspan x="736.000" dy="17.28">Accounts</tspan>
+</text>
+<path d="M664.0000 72H464.2540" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="564.127" y="65.000" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="black">
+<tspan x="564.127" dy="0">Account record</tspan>
+</text>
+<path d="M464.2540 100H664.0000" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="564.127" y="93.000" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="black">
+<tspan x="564.127" dy="0">Account changes</tspan>
+</text>
+<rect x="10" y="211" width="140" height="80" fill="white" stroke="black" stroke-width="2"/>
+<text x="80.000" y="246.820" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="black">
+<tspan x="80.000" dy="0">Visitor /</tspan>
+<tspan x="80.000" dy="18.36">member*</tspan>
+</text>
+<circle cx="409" cy="251" r="57" fill="white" stroke="black" stroke-width="2"/>
+<text x="409.000" y="237.640" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="black">
+<tspan x="409.000" dy="0">2.0</tspan>
+<tspan x="409.000" dy="18.36">Manage</tspan>
+<tspan x="409.000" dy="18.36">books</tspan>
+</text>
+<path d="M150.0000 233H354.9167" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="252.458" y="226.000" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="black">
+<tspan x="252.458" dy="0">Search / listing / save</tspan>
+</text>
+<path d="M354.9167 269H150.0000" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="252.458" y="290.000" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="black">
+<tspan x="252.458" dy="0">Listings / saved books</tspan>
+</text>
+<path d="M808 216.0H664V286.0H808" fill="none" stroke="black" stroke-width="2"/>
+<text x="736.000" y="238.720" font-family="Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="black">
+<tspan x="736.000" dy="0">D2*</tspan>
+<tspan x="736.000" dy="17.28">Books and</tspan>
+<tspan x="736.000" dy="17.28">wishlist</tspan>
+</text>
+<path d="M664.0000 237H464.2540" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="564.127" y="230.000" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="black">
+<tspan x="564.127" dy="0">Books and saved items</tspan>
+</text>
+<path d="M464.2540 265H664.0000" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="564.127" y="258.000" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="black">
+<tspan x="564.127" dy="0">Listing / save changes</tspan>
+</text>
+<rect x="10" y="555" width="140" height="80" fill="white" stroke="black" stroke-width="2"/>
+<text x="80.000" y="590.820" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="black">
+<tspan x="80.000" dy="0">Member* /</tspan>
+<tspan x="80.000" dy="18.36">admin</tspan>
+</text>
+<circle cx="409" cy="595" r="57" fill="white" stroke="black" stroke-width="2"/>
+<text x="409.000" y="590.820" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="black">
+<tspan x="409.000" dy="0">4.0</tspan>
+<tspan x="409.000" dy="18.36">Moderate</tspan>
+</text>
+<path d="M150.0000 577H354.9167" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="252.458" y="570.000" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="black">
+<tspan x="252.458" dy="0">Report / decision</tspan>
+</text>
+<path d="M354.9167 613H150.0000" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="252.458" y="634.000" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="black">
+<tspan x="252.458" dy="0">Review / outcome</tspan>
+</text>
+<path d="M808 560.0H664V630.0H808" fill="none" stroke="black" stroke-width="2"/>
+<text x="736.000" y="582.720" font-family="Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="black">
+<tspan x="736.000" dy="0">D4</tspan>
+<tspan x="736.000" dy="17.28">Reports</tspan>
+<tspan x="736.000" dy="17.28">and audit</tspan>
+</text>
+<path d="M664.0000 581H464.2540" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="564.127" y="574.000" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="black">
+<tspan x="564.127" dy="0">Report / audit records</tspan>
+</text>
+<path d="M464.2540 609H664.0000" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="564.127" y="602.000" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="black">
+<tspan x="564.127" dy="0">Reports and actions</tspan>
+</text>
+<rect x="10" y="378" width="140" height="80" fill="white" stroke="black" stroke-width="2"/>
+<text x="80.000" y="423.000" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="black">
+<tspan x="80.000" dy="0">Member*</tspan>
+</text>
+<circle cx="409" cy="418" r="57" fill="white" stroke="black" stroke-width="2"/>
+<text x="409.000" y="404.640" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="black">
+<tspan x="409.000" dy="0">3.0</tspan>
+<tspan x="409.000" dy="18.36">Handle</tspan>
+<tspan x="409.000" dy="18.36">trade</tspan>
+</text>
+<path d="M150.0000 400H354.9167" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="252.458" y="376.360" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="black">
+<tspan x="252.458" dy="0">Offers, decisions</tspan>
+<tspan x="252.458" dy="17.28">and messages</tspan>
+</text>
+<path d="M354.9167 436H150.0000" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="252.458" y="456.360" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="black">
+<tspan x="252.458" dy="0">Trade status,</tspan>
+<tspan x="252.458" dy="17.28">chat and alerts</tspan>
+</text>
+<path d="M808 351.0H664V415.0H808" fill="none" stroke="black" stroke-width="2"/>
+<text x="736.000" y="379.360" font-family="Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="black">
+<tspan x="736.000" dy="0">D3</tspan>
+<tspan x="736.000" dy="17.28">Trade records</tspan>
+</text>
+<path d="M664.0000 369H438.1204" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="551.060" y="362.000" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="black">
+<tspan x="551.060" dy="0">Requests, chat, alerts</tspan>
+</text>
+<path d="M461.9906 397H664.0000" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="562.995" y="390.000" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="black">
+<tspan x="562.995" dy="0">Trade / chat / alerts</tspan>
+</text>
+<path d="M808 421.0H664V485.0H808" fill="none" stroke="black" stroke-width="2"/>
+<text x="736.000" y="440.720" font-family="Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="black">
+<tspan x="736.000" dy="0">D2*</tspan>
+<tspan x="736.000" dy="17.28">Books and</tspan>
+<tspan x="736.000" dy="17.28">wishlist</tspan>
+</text>
+<path d="M664.0000 439H461.9906" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="562.995" y="432.000" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="black">
+<tspan x="562.995" dy="0">Listing details</tspan>
+</text>
+<path d="M438.1204 467H664.0000" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="551.060" y="460.000" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="black">
+<tspan x="551.060" dy="0">Listing status</tspan>
+</text>
+<text x="12.000" y="693.000" font-family="Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start" fill="black">
+<tspan x="12.000" dy="0">* Repeated actor or store. Open right edges identify data stores.</tspan>
+</text>
+</svg>

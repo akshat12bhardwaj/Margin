@@ -203,7 +203,7 @@ test.describe.serial('marketplace', () => {
     await expect(card).toContainText('1 book');
     await card.click();
     await expect(page).toHaveURL(/subject=Data\+Structures\+and\+Algorithms/);
-    await expect(page.getByText('1 book', { exact: true })).toBeVisible();
+    await expect(page.locator('.result-count:visible')).toHaveText('1 book');
     await expect(page.locator('.book-price s')).toHaveCount(0);
   });
 

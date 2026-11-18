@@ -1,0 +1,11 @@
+Run: 2026-11-06 21:13 IST
+Machine: Intel(R) Core(TM) i7-14700HX, 28 logical cores, 32 GB RAM (development laptop, server and client on the same machine)
+Database: local MongoDB, dev data (168 listings)
+Base http://localhost:5079, Node v26.8.1, 200 sequential and 20 concurrent requests per endpoint
+
+Endpoint | Sequential median ms | Sequential p95 ms | Concurrent median ms | Concurrent p95 ms
+Browse page (12 listings) | 15.5 | 18.1 | 22.8 | 35.3
+Keyword search | 15.3 | 19.1 | 22.9 | 33.2
+Subject + semester + price filter | 15.5 | 18.3 | 27.9 | 32.5
+Home facets | 15.5 | 17.7 | 18.3 | 37.6
+Listing details | 15.5 | 19.6 | 23.8 | 33.4

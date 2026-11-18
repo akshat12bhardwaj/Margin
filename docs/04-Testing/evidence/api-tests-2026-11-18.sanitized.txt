@@ -1,0 +1,84 @@
+Run date: 18 November 2026 (IST)
+
+> academic-book-marketplace@1.0.0 test
+> npm test -w server
+
+
+> server@1.0.0 test
+> node --test --test-concurrency=1 test/
+
+✔ reporting: flags the listing, blocks duplicates and self-reports, ignores forged status (986.9077ms)
+✔ report handling: status flow, decision required, final once closed, parties notified, audited (606.7245ms)
+✔ listing moderation: hide, restore, remove; open deals are cancelled; reason required (654.5607ms)
+✔ restore clears a wrongly flagged but still active listing (457.8193ms)
+✔ suspension: immediate, blocks actions but not reading, hides listings, restore brings them back (619.2262ms)
+✔ deactivation ends sessions and blocks login (695.1735ms)
+✔ admins cannot be moderated, and do not trade (294.4648ms)
+✔ dashboard stats and repeat offender tracking use real data (704.7629ms)
+✔ admin user filters (217.9834ms)
+✔ registration hashes the password and sets an httpOnly cookie (540.1392ms)
+✔ cannot self-register as admin, or set status through registration (227.391ms)
+✔ registration validation and duplicate email (236.0252ms)
+✔ NoSQL operator injection on login is rejected (3.5843ms)
+✔ login, /me, logout (877.0185ms)
+✔ a forged or garbage token is not accepted (1.8836ms)
+✔ profile update cannot change role or status (208.6172ms)
+✔ password reset: single use, unknown email is indistinguishable, old sessions die (990.1522ms)
+✔ change password requires the current one and keeps this session (762.6018ms)
+✔ login is rate limited (404.7586ms)
+✔ role guards: anonymous gets 401, members 403 on all admin routes (277.4654ms)
+✔ negotiation rules: accept near the price, decline far below, counter in between, always converging (224.3374ms)
+✔ amounts and intents are read conservatively (1.5369ms)
+✔ suggestions follow the conversation stage and the real listing price (8.9928ms)
+✔ a real member chats and negotiates with an automated seller, through to a completed sale (537.1143ms)
+✔ offers made with the buttons are answered by the same rules (307.7426ms)
+✔ conversations between real members get no automated replies (435.6803ms)
+✔ security: private threads, no self-promotion to automated seller, invalid offers refused (632.6721ms)
+✔ ISBN checksum recognises valid and invalid numbers (220.4596ms)
+✔ seeding refuses production and remote databases unless authorized (0.2325ms)
+✔ seeding is idempotent, and removal leaves real data alone (956.5749ms)
+✔ every catalogue book names its source handout and no ISBN is malformed (0.7012ms)
+✔ subject migration maps known subjects, flags uncertain ones and is idempotent (476.9798ms)
+✔ /me says Google sign-in is available (252.7848ms)
+✔ a new Google user finishes signup and can sign in again (275.356ms)
+✔ signup cannot be completed without a Google cookie, or with a session token (206.8182ms)
+✔ a signup token is not accepted as a session (3.4625ms)
+✔ linking an existing account removes its password and ends its sessions (418.9034ms)
+✔ a different Google identity cannot take over a linked account (16.1323ms)
+✔ admin and deactivated accounts cannot use Google (206.1042ms)
+✔ unverified email, wrong audience and wrong issuer are rejected (9.8845ms)
+✔ a callback without the matching state is rejected before contacting Google (2.9585ms)
+✔ students and faculty can list; anonymous users cannot (720.0347ms)
+✔ upload rules: photo required, fake images and wrong types rejected, multiple accepted (248.7901ms)
+✔ listing validation: blank price is an error, not a free book (231.2702ms)
+✔ search, filters, sorting and pagination (315.3381ms)
+✔ subjects come from the catalogue; original price and department are not collected (249.1708ms)
+✔ a stored legacy original price never reaches the API (217.9761ms)
+✔ ownership: only the owner can edit, change status or delete (403.5568ms)
+✔ edit: replaces photos, clears optionals, refuses zero photos (213.919ms)
+✔ deactivate hides a listing from others; delete removes it (422.2445ms)
+✔ wishlist: add is idempotent, shows sold and removed listings as such, remove works (447.096ms)
+✔ public profile exposes no email or secrets (218.1564ms)
+✔ offer, counteroffer, accept at the agreed price, then sold; each step lands in the chat (808.4265ms)
+✔ invalid amounts, outsiders and stale or duplicate actions are refused (677.5122ms)
+✔ the demo account switcher is gone (5.3558ms)
+✔ full workflow: request, accept, coordinate, sold, history, notifications (1370.3914ms)
+✔ duplicate and self requests are refused, including under a race (457.192ms)
+✔ concurrent accepts of different buyers: exactly one wins (772.3343ms)
+✔ the database itself refuses a second winning buyer (726.6868ms)
+✔ cancelling an accepted request frees the listing for the next buyer; rejected buyers may ask again (757.2735ms)
+✔ cancelling before acceptance leaves the book available (415.7106ms)
+✔ overlapping acceptance and cancellation stay consistent when cancel starts first (427.5697ms)
+✔ overlapping acceptance and cancellation stay consistent when accept starts first (452.2596ms)
+✔ outsiders see 404 on request actions; complete requires an accepted request (632.6688ms)
+✔ messaging: conversation flow, privacy, unread counts and notifications (740.8683ms)
+✔ notifications: mark one and all as read, cannot touch another user's (464.3469ms)
+✔ either party can open the chat for a request; outsiders cannot (639.4922ms)
+ℹ tests 67
+ℹ suites 0
+ℹ pass 67
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 37087.0455

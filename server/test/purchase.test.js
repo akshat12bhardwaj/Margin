@@ -93,6 +93,54 @@ test('cancelling an accepted request frees the listing for the next buyer; rejec
   await b.agent.post('/api/requests').send({ bookId: book._id }).expect(201);
 });
 
+test('cancelling before acceptance leaves the book available', async () => {
+  const seller = await member();
+  const buyer = await member();
+  const book = await listing(seller);
+  const { body } = await buyer.agent.post('/api/requests').send({ bookId: book._id }).expect(201);
+  const route = `/api/requests/${body.request._id}`;
+  await buyer.agent.patch(`${route}/cancel`).send({}).expect(200);
+  await seller.agent.patch(`${route}/accept`).send({}).expect(409);
+  assert.equal(await status(request(app), book._id), 'active');
+});
+
+for (const first of ['cancel', 'accept']) {
+  test(`overlapping acceptance and cancellation stay consistent when ${first} starts first`, async (t) => {
+    const seller = await member();
+    const buyer = await member();
+    const book = await listing(seller);
+    const { body } = await buyer.agent.post('/api/requests').send({ bookId: book._id }).expect(201);
+    const route = `/api/requests/${body.request._id}`;
+    const update = PurchaseRequest.findOneAndUpdate;
+    const atWrite = Promise.withResolvers();
+    const resume = Promise.withResolvers();
+    const pausedStatus = first === 'cancel' ? 'cancelled' : 'accepted';
+    // Hold the first write after its initial read while the other action commits.
+    t.mock.method(PurchaseRequest, 'findOneAndUpdate', async function (filter, changes, options) {
+      if (changes.status === pausedStatus) {
+        atWrite.resolve();
+        await resume.promise;
+      }
+      return update.call(this, filter, changes, options);
+    });
+    const accept = () => seller.agent.patch(`${route}/accept`).send({});
+    const cancel = () => buyer.agent.patch(`${route}/cancel`).send({});
+    const delayed = (first === 'cancel' ? cancel() : accept()).timeout(5000).then((res) => res);
+    try {
+      await Promise.race([atWrite.promise, delayed.then(() => assert.fail('The first action did not reach the write'))]);
+      await (first === 'cancel' ? accept() : cancel()).expect(200);
+    } finally {
+      resume.resolve();
+      assert.equal((await delayed).status, first === 'cancel' ? 200 : 409);
+    }
+    const saved = await PurchaseRequest.findById(body.request._id);
+    assert.equal(saved.status, 'cancelled');
+    assert.deepEqual(saved.history.map((event) => event.status), first === 'cancel'
+      ? ['pending', 'accepted', 'cancelled'] : ['pending', 'cancelled']);
+    assert.equal(await status(request(app), book._id), 'active');
+  });
+}
+
 test('outsiders see 404 on request actions; complete requires an accepted request', async () => {
   const seller = await member();
   const buyer = await member();

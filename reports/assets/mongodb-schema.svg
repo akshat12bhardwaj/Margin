@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="277mm" height="190mm" viewBox="0 0 1680 1152" role="img" aria-labelledby="title desc">
+<title id="title">Margin MongoDB collection relationships</title>
+<desc id="desc">Nine actual collections. Each ObjectId reference points to a labelled repeated target collection. Dashed arrows show the audit target selected by targetType.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="black"/></marker></defs>
+<rect width="1680" height="1152" fill="white"/>
+<text x="840" y="40" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="black">Margin — MongoDB Database Relationships</text>
+<text x="840" y="72" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="black">Main database: academic_marketplace · Models and live collections checked · 18 November 2026</text>
+<rect x="30" y="120" width="292" height="278" fill="white" stroke="black" stroke-width="1.8"/>
+<line x1="30" y1="160" x2="322" y2="160" stroke="black" stroke-width="1.5"/>
+<text x="176.0" y="147" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" text-anchor="middle" fill="black">users</text>
+<text x="42" y="185" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">_id: ObjectId</text>
+<text x="42" y="212" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">name, role, status: String</text>
+<text x="42" y="239" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">university, program: String</text>
+<text x="42" y="266" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">semester: Number</text>
+<text x="42" y="293" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">designation, bio: String</text>
+<text x="42" y="320" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">isDemo: Boolean</text>
+<text x="42" y="347" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">isAutomatedSeller: Boolean</text>
+<rect x="584" y="120" width="292" height="278" fill="white" stroke="black" stroke-width="1.8"/>
+<line x1="584" y1="160" x2="876" y2="160" stroke="black" stroke-width="1.5"/>
+<text x="730.0" y="147" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" text-anchor="middle" fill="black">books</text>
+<text x="596" y="185" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">_id: ObjectId</text>
+<text x="596" y="212" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">seller: ObjectId</text>
+<line x1="876" y1="206" x2="921" y2="206" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="921" y="194" width="174" height="24" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="1008.0" y="212" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">users</text>
+<text x="596" y="239" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">title, author, subject: String</text>
+<text x="596" y="266" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">edition, condition: String</text>
+<text x="596" y="293" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">publicationYear: Number</text>
+<text x="596" y="320" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">price: Number</text>
+<text x="596" y="347" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">images: Object[]</text>
+<text x="596" y="374" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">status: String</text>
+<rect x="1138" y="120" width="292" height="278" fill="white" stroke="black" stroke-width="1.8"/>
+<line x1="1138" y1="160" x2="1430" y2="160" stroke="black" stroke-width="1.5"/>
+<text x="1284.0" y="147" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" text-anchor="middle" fill="black">purchaserequests</text>
+<text x="1150" y="185" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">_id: ObjectId</text>
+<text x="1150" y="212" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">book: ObjectId</text>
+<line x1="1430" y1="206" x2="1475" y2="206" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="1475" y="194" width="174" height="24" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="1562.0" y="212" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">books</text>
+<text x="1150" y="239" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">buyer: ObjectId</text>
+<line x1="1430" y1="233" x2="1475" y2="233" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="1475" y="221" width="174" height="24" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="1562.0" y="239" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">users</text>
+<text x="1150" y="266" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">seller: ObjectId</text>
+<line x1="1430" y1="260" x2="1475" y2="260" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="1475" y="248" width="174" height="24" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="1562.0" y="266" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">users</text>
+<text x="1150" y="293" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">price, listPrice: Number</text>
+<text x="1150" y="320" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">status, offerBy: String</text>
+<text x="1150" y="347" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">history[].by: ObjectId</text>
+<line x1="1430" y1="341" x2="1475" y2="341" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="1475" y="329" width="174" height="24" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="1562.0" y="347" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">users</text>
+<text x="1150" y="374" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">history[].at: Date</text>
+<rect x="30" y="440" width="292" height="278" fill="white" stroke="black" stroke-width="1.8"/>
+<line x1="30" y1="480" x2="322" y2="480" stroke="black" stroke-width="1.5"/>
+<text x="176.0" y="467" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" text-anchor="middle" fill="black">conversations</text>
+<text x="42" y="505" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">_id: ObjectId</text>
+<text x="42" y="532" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">book: ObjectId</text>
+<line x1="322" y1="526" x2="367" y2="526" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="367" y="514" width="174" height="24" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="454.0" y="532" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">books</text>
+<text x="42" y="559" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">buyer: ObjectId</text>
+<line x1="322" y1="553" x2="367" y2="553" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="367" y="541" width="174" height="24" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="454.0" y="559" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">users</text>
+<text x="42" y="586" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">seller: ObjectId</text>
+<line x1="322" y1="580" x2="367" y2="580" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="367" y="568" width="174" height="24" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="454.0" y="586" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">users</text>
+<text x="42" y="613" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">lastMessage: String</text>
+<text x="42" y="640" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">lastMessageAt: Date</text>
+<text x="42" y="667" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">buyerUnread: Number</text>
+<text x="42" y="694" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">sellerUnread: Number</text>
+<rect x="584" y="440" width="292" height="278" fill="white" stroke="black" stroke-width="1.8"/>
+<line x1="584" y1="480" x2="876" y2="480" stroke="black" stroke-width="1.5"/>
+<text x="730.0" y="467" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" text-anchor="middle" fill="black">messages</text>
+<text x="596" y="505" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">_id: ObjectId</text>
+<text x="596" y="532" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">conversation: ObjectId</text>
+<line x1="876" y1="526" x2="921" y2="526" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="921" y="514" width="174" height="24" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="1008.0" y="532" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">conversations</text>
+<text x="596" y="559" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">sender: ObjectId</text>
+<line x1="876" y1="553" x2="921" y2="553" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="921" y="541" width="174" height="24" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="1008.0" y="559" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">users</text>
+<text x="596" y="586" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">request?: ObjectId</text>
+<line x1="876" y1="580" x2="921" y2="580" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="921" y="568" width="174" height="24" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="1008.0" y="586" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">purchaserequests</text>
+<text x="596" y="613" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">kind, body: String</text>
+<text x="596" y="640" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">amount?: Number</text>
+<rect x="1138" y="440" width="292" height="278" fill="white" stroke="black" stroke-width="1.8"/>
+<line x1="1138" y1="480" x2="1430" y2="480" stroke="black" stroke-width="1.5"/>
+<text x="1284.0" y="467" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" text-anchor="middle" fill="black">wishlists</text>
+<text x="1150" y="505" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">_id: ObjectId</text>
+<text x="1150" y="532" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">user: ObjectId</text>
+<line x1="1430" y1="526" x2="1475" y2="526" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="1475" y="514" width="174" height="24" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="1562.0" y="532" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">users</text>
+<text x="1150" y="559" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">book: ObjectId</text>
+<line x1="1430" y1="553" x2="1475" y2="553" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="1475" y="541" width="174" height="24" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="1562.0" y="559" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">books</text>
+<rect x="30" y="760" width="292" height="278" fill="white" stroke="black" stroke-width="1.8"/>
+<line x1="30" y1="800" x2="322" y2="800" stroke="black" stroke-width="1.5"/>
+<text x="176.0" y="787" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" text-anchor="middle" fill="black">notifications</text>
+<text x="42" y="825" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">_id: ObjectId</text>
+<text x="42" y="852" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">user: ObjectId</text>
+<line x1="322" y1="846" x2="367" y2="846" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="367" y="834" width="174" height="24" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="454.0" y="852" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">users</text>
+<text x="42" y="879" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">type, message: String</text>
+<text x="42" y="906" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">link: String</text>
+<text x="42" y="933" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">read: Boolean</text>
+<rect x="584" y="760" width="292" height="278" fill="white" stroke="black" stroke-width="1.8"/>
+<line x1="584" y1="800" x2="876" y2="800" stroke="black" stroke-width="1.5"/>
+<text x="730.0" y="787" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" text-anchor="middle" fill="black">reports</text>
+<text x="596" y="825" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">_id: ObjectId</text>
+<text x="596" y="852" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">reporter: ObjectId</text>
+<line x1="876" y1="846" x2="921" y2="846" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="921" y="834" width="174" height="24" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="1008.0" y="852" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">users</text>
+<text x="596" y="879" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">targetUser: ObjectId</text>
+<line x1="876" y1="873" x2="921" y2="873" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="921" y="861" width="174" height="24" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="1008.0" y="879" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">users</text>
+<text x="596" y="906" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">book?: ObjectId</text>
+<line x1="876" y1="900" x2="921" y2="900" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="921" y="888" width="174" height="24" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="1008.0" y="906" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">books</text>
+<text x="596" y="933" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">decidedBy?: ObjectId</text>
+<line x1="876" y1="927" x2="921" y2="927" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="921" y="915" width="174" height="24" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="1008.0" y="933" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">users</text>
+<text x="596" y="960" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">targetType, category: String</text>
+<text x="596" y="987" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">status, decision: String</text>
+<text x="596" y="1014" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">decidedAt?: Date</text>
+<rect x="1138" y="760" width="292" height="278" fill="white" stroke="black" stroke-width="1.8"/>
+<line x1="1138" y1="800" x2="1430" y2="800" stroke="black" stroke-width="1.5"/>
+<text x="1284.0" y="787" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" text-anchor="middle" fill="black">auditlogs</text>
+<text x="1150" y="825" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">_id: ObjectId</text>
+<text x="1150" y="852" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">admin: ObjectId</text>
+<line x1="1430" y1="846" x2="1475" y2="846" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="1475" y="834" width="174" height="24" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="1562.0" y="852" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">users</text>
+<text x="1150" y="879" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">targetId*: ObjectId</text>
+<line x1="1430" y1="873" x2="1475" y2="873" stroke="black" stroke-width="1.6" marker-end="url(#arrow)" stroke-dasharray="6 4"/>
+<rect x="1475" y="861" width="174" height="24" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="1562.0" y="879" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">users/books/reports</text>
+<text x="1150" y="906" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">targetType: String</text>
+<text x="1150" y="933" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">action, reason: String</text>
+<text x="1150" y="960" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">createdAt: Date</text>
+<text x="30" y="1098" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">Solid arrow: field references _id in the named collection. Small target boxes repeat the same collection.</text>
+<text x="30" y="1124" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="black">Many source documents may reference one target. ? = optional. * = targetType selects the audit target. Important fields only.</text>
+</svg>
