@@ -101,8 +101,7 @@ export default function BookCard({ book, footer }) {
       <Link to={`/books/${book._id}`} className="book-link">
         <div className="book-cover">
           <div className="book-tags">
-            <span />
-            <span className="book-status"><StatusBadge status={book.status} /></span>
+            <StatusBadge status={book.status} />
           </div>
           <BookCover book={book} alt={`Cover of ${book.title}`} />
           <span className="book-condition">{book.condition}</span>

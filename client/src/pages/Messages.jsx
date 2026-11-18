@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { api } from '../api.js';
 import { BookCover } from '../components/BookCard.jsx';
 import NegotiationActions, { AmountDialog, isMyTurn, negotiationSummary } from '../components/Negotiation.jsx';
-import { EmptyState, ErrorState, Loaded, RoleBadge, SampleBadge, Spinner, StatusBadge } from '../components/ui.jsx';
+import { EmptyState, ErrorState, Loaded, RoleBadge, Spinner, StatusBadge } from '../components/ui.jsx';
 import { formatDateTime, formatPrice } from '../constants.js';
 import { useAuth } from '../context/AuthContext.jsx';
 import { useToast } from '../context/ToastContext.jsx';
@@ -73,7 +73,6 @@ function Thread({ id, onActivity }) {
           <div className="small muted">
             About <Link to={`/books/${conversation.book._id}`}>{conversation.book.title}</Link>
           </div>
-          {other.isAutomatedSeller && <div className="small muted"><SampleBadge /> Fictional seller. Replies are automated.</div>}
         </div>
         <StatusBadge status={conversation.book.status} />
       </header>

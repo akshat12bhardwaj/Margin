@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { api } from '../../api.js';
-import { ActionDialog, EmptyState, Loaded, Modal, Pagination, SampleBadge, StatusBadge, UserStatusBadge } from '../../components/ui.jsx';
+import { ActionDialog, EmptyState, Loaded, Modal, Pagination, StatusBadge, UserStatusBadge } from '../../components/ui.jsx';
 import { formatDate, formatPrice, REPORT_CATEGORIES } from '../../constants.js';
 import { useToast } from '../../context/ToastContext.jsx';
 import { useFetch, useTitle } from '../../hooks.js';
@@ -134,7 +134,7 @@ export default function AdminUsers() {
                   <tbody>
                     {data.items.map((u) => (
                       <tr key={u._id}>
-                        <td><strong>{u.name}</strong> {u.isDemo && <SampleBadge />}<div className="small muted">{u.email}</div><div className="small muted">{u.university}</div></td>
+                        <td><strong>{u.name}</strong>{u.isDemo && <span className="small muted"> · Simulated</span>}<div className="small muted">{u.email}</div><div className="small muted">{u.university}</div></td>
                         <td className="capitalize">{u.role}</td>
                         <td><UserStatusBadge status={u.status} /></td>
                         <td>

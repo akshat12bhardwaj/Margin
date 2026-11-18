@@ -40,6 +40,7 @@ export default function RequestCard({ request, side, onChange }) {
           <strong className="request-price">{formatPrice(request.price)}</strong>
           {request.listPrice > request.price && <s className="small"> {formatPrice(request.listPrice)}</s>} · {isSeller ? 'Buyer' : 'Seller'}: <Link to={`/users/${other._id}`}>{other.name}</Link> <RoleBadge role={other.role} /> · {formatDate(request.createdAt)}
         </p>
+        {request.isDemo && <p className="small muted">Simulated exchange</p>}
         {request.message && <p className="quote">“{request.message}”</p>}
         {summary && <p className={status === 'pending' ? 'notice notice-quiet' : 'notice'}>{summary}</p>}
         <details className="timeline">

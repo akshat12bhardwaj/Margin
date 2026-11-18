@@ -28,7 +28,7 @@ export function PublicProfile() {
               <div className="profile-main">
                 <h1>{user.name} <RoleBadge role={user.role} /></h1>
                 <p className="muted">{[user.designation, user.program, user.university].filter(Boolean).join(' · ')}</p>
-                {user.bio && <p className="prewrap">{user.bio}</p>}
+                {user.isDemo ? <p className="small muted">Simulated seller{user.isAutomatedSeller && ' · automated replies'}</p> : user.bio && <p className="prewrap">{user.bio}</p>}
                 {!user.isDemo && <p className="small muted">Member since {formatDate(user.createdAt)} · {soldCount} sold</p>}
                 {user.status === 'suspended' && <p className="field-error">This account is currently restricted.</p>}
               </div>

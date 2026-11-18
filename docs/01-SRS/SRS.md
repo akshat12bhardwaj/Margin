@@ -142,13 +142,13 @@ Priorities use MoSCoW (Section 9). Source modules are listed in the traceability
 
 ### 5.7 Demonstration data
 
-**FR-27 Example marketplace (Could).** A seed script adds fictional sellers and listings of real books taken from 17 BMU course handouts. Example listings are labelled on every listing page and in the chat, use addresses under `@demo.invalid`, cannot be logged into, and can be removed completely without touching real data. Seeding refuses production and non-local databases unless explicitly authorised.
+**FR-27 Example marketplace (Could).** A seed script adds fictional sellers and listings of real books taken from 17 BMU course handouts. Simulated listings are identified in the listing facts, seller profile and exchange records. Their sellers use addresses under `@demo.invalid`, cannot be logged into, and can be removed completely without touching real data. Seeding refuses production and non-local databases unless explicitly authorised.
 
 **FR-28 Automated example sellers (Could).** A member can message and negotiate with a fictional seller through the normal chat. The seller replies from fixed rules: it accepts at 90% or more of the listed price, declines below 60%, otherwise counters halfway (never below 90%), and answers questions about availability, condition, edition and meeting. Three suggested messages fit the stage of the conversation; the text box remains available. Conversations between real members never receive automated replies.
 
 ### 5.8 Interface
 
-**FR-29 Home page and appearance (Could).** The home page shows a rotating showcase of three recent covers (each opens its own listing), subject categories, shelves of recent, affordable, faculty-listed and recently published books, and the example-listing disclosure. Members can switch between light and dark themes; the choice persists.
+**FR-29 Home page and appearance (Could).** The home page shows a rotating showcase of three recent covers (each opens its own listing), subject categories, and shelves of recent, affordable, faculty-listed and recently published books. Simulated-listing identification stays in the detail context. Members can switch between light and dark themes; the choice persists.
 
 ## 6. Non-functional requirements
 

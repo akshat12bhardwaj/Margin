@@ -47,7 +47,7 @@ export default function AdminDashboard() {
               <Stat to="/admin/reports?targetType=user" value={s.reportedUsers} label="Reported users" alert />
             </div>
 
-            {s.demoListings > 0 && <p className="sample-notice">Sample data is loaded: {s.demoListings} listings and {s.demoUsers} fictional accounts. They are not counted in the totals above. Remove them with <code>npm run demo:remove</code>.</p>}
+            {s.demoListings > 0 && <p className="small muted">Simulated data: {s.demoListings} listings · {s.demoUsers} accounts, excluded from totals.</p>}
 
             <h2 className="section-title">Suspicious activity</h2>
             <div className="stats stats-small">

@@ -3,7 +3,7 @@ import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { api } from '../api.js';
 import BookCard, { BookCover } from '../components/BookCard.jsx';
 import ReportDialog from '../components/ReportDialog.jsx';
-import { ActionDialog, Icon, Loaded, RoleBadge, SampleBadge, StatusBadge } from '../components/ui.jsx';
+import { ActionDialog, Icon, Loaded, RoleBadge, StatusBadge } from '../components/ui.jsx';
 import { formatDate, formatPrice, STATUS_LABELS } from '../constants.js';
 import { useAuth } from '../context/AuthContext.jsx';
 import { useToast } from '../context/ToastContext.jsx';
@@ -32,7 +32,7 @@ function Details({ data, reload }) {
   const [dialog, setDialog] = useState(null);
   const isOwner = user?._id === book.seller._id;
   const available = book.status === 'active';
-  // Example listings belong to fictional sellers whose replies are scripted (server/src/lib/autoSeller.js).
+  // Simulated listings keep the same scripted seller interactions.
   const example = book.isDemo;
   const automated = book.seller.isAutomatedSeller;
 
@@ -88,21 +88,12 @@ function Details({ data, reload }) {
           <div className="row-wrap">
             <StatusBadge status={book.status} />
             <span className="badge badge-neutral">{book.condition}</span>
-            {book.isDemo && <SampleBadge />}
           </div>
           <h1>{book.title}</h1>
           <p className="lead-sm">by {book.author}</p>
-          <p className="details-price">
-            {formatPrice(book.price)}
-            {example && <small>Example price</small>}
-          </p>
+          <p className="details-price">{formatPrice(book.price)}</p>
 
           <div className="buy-box">
-            {example && (
-              <p className="sample-notice">
-                <Icon name="info" /> <strong>Example listing.</strong> This book is on a BMU course reading list, but this copy and {book.seller.name} are fictional. {automated && 'The seller replies automatically, so you can try buying, messaging and negotiating. No real book changes hands.'}
-              </p>
-            )}
             {!user && available && (
               <Link className="btn btn-primary btn-block" to="/login" state={{ from: location.pathname }}>Log in to buy or message</Link>
             )}
@@ -137,6 +128,7 @@ function Details({ data, reload }) {
           </div>
 
           <dl className="facts">
+            {example && <div><dt>Listing type</dt><dd>Simulated · fictional seller{automated && ' · automated replies'}</dd></div>}
             <div><dt>Edition</dt><dd>{book.edition ?? 'Not stated'}</dd></div>
             <div><dt>Published</dt><dd>{book.publicationYear ?? 'Not stated'}</dd></div>
             <div><dt>Subject</dt><dd>{book.subject}</dd></div>
@@ -184,7 +176,7 @@ function Details({ data, reload }) {
       {dialog === 'buy' && (
         <ActionDialog
           title={`Buy “${book.title}” for ${formatPrice(book.price)}?`}
-          body={`This sends ${book.seller.name} a request to buy at the full listed price of ${formatPrice(book.price)}. Once they accept, the book is reserved for you and you arrange the handover in the chat. Nothing is charged here: you pay in person when you collect it.${example ? ' This is an example listing, so no real book changes hands.' : ''}`}
+          body={`This sends ${book.seller.name} a request to buy at the full listed price of ${formatPrice(book.price)}. Once they accept, the book is reserved for you and you arrange the handover in the chat. ${example ? 'This is a simulated exchange; no payment or handover takes place.' : 'Nothing is charged here: you pay in person when you collect it.'}`}
           confirmLabel={`Send request at ${formatPrice(book.price)}`}
           onClose={() => setDialog(null)}
           onConfirm={async () => {

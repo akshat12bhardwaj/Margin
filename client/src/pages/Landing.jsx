@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { api } from '../api.js';
 import BookCard, { BookCover, BookGridSkeleton, editionLabel } from '../components/BookCard.jsx';
-import { EmptyState, Icon, SampleBadge } from '../components/ui.jsx';
+import { EmptyState, Icon } from '../components/ui.jsx';
 import { formatPrice, subjectInfo } from '../constants.js';
 import { useAuth } from '../context/AuthContext.jsx';
 import { useFetch, useTitle } from '../hooks.js';
@@ -187,7 +187,6 @@ export default function Landing() {
   const items = latest.data?.items ?? [];
   const f = facets.data;
   const hasBooks = f ? f.total > 0 : false;
-  const hasSamples = items.some((b) => b.isDemo);
   const subjects = f?.subjects ?? [];
   const sellPath = user ? '/sell' : '/register';
 
@@ -223,7 +222,6 @@ export default function Landing() {
                 <div><strong>{f.courses.length}</strong><span>Courses</span></div>
               </div>
             )}
-            {hasSamples && <p className="small muted hero-note"><SampleBadge /> Most listings here are examples: real books from BMU reading lists, offered by fictional sellers who reply automatically. They are not real offers, and each one says so on its page.</p>}
           </div>
           <div className="hero-visual">
             <Leaf className="hero-leaf-a" />

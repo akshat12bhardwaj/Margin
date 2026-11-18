@@ -533,7 +533,7 @@ test.describe.serial('marketplace', () => {
     await page.goto('/');
     await expect(page.getByRole('heading', { name: 'Recently listed' })).toBeVisible();
     await expect(page.getByRole('heading', { name: 'Listed by faculty' })).toBeVisible();
-    await expect(page.locator('.badge-sample').first()).toHaveText('Example');
+    await expect(page.locator('.badge-sample, .sample-notice, .hero-note')).toHaveCount(0);
     await expect(page.getByText('Not affiliated with or endorsed by BML Munjal University')).toBeVisible();
 
     // Subject cards carry an icon and open the filtered catalogue; no more than eight are shown.
@@ -548,13 +548,25 @@ test.describe.serial('marketplace', () => {
     await page.goto('/books?q=Discrete+Mathematics+and+Its');
     await expect(page.locator('.book-card').first()).toContainText('Rosen');
     await page.locator('.book-card a').first().click();
-    await expect(page.getByText('Example listing.')).toBeVisible();
-    await expect(page.getByText('Example price')).toBeVisible();
+    await expect(page.locator('.sample-notice, .badge-sample')).toHaveCount(0);
+    await expect(page.locator('.facts')).toContainText('Simulated · fictional seller · automated replies');
     // Fictional sellers reply automatically, so example listings can be messaged and negotiated, but not reported.
     await expect(page.getByRole('button', { name: /^Buy now/ })).toBeVisible();
     await expect(page.getByRole('button', { name: 'Message seller' })).toBeVisible();
     await expect(page.getByRole('button', { name: 'Report this listing' })).toHaveCount(0);
     await expect(page.getByRole('heading', { name: 'Related books' })).toBeVisible();
+
+    const detailUrl = page.url();
+    const title = await page.getByRole('heading', { level: 1 }).textContent();
+    await page.getByRole('button', { name: 'Save to wishlist', exact: true }).click();
+    await expect(page.getByRole('button', { name: 'Saved to wishlist' })).toBeVisible();
+    await page.goto('/wishlist');
+    await expect(page.locator('.book-card').filter({ hasText: title })).toHaveCount(1);
+    await expect(page.locator('.badge-sample, .sample-notice')).toHaveCount(0);
+    await page.goto(detailUrl);
+    await page.locator('.seller-card').getByRole('link', { name: 'View profile' }).click();
+    await expect(page.getByText('Simulated seller · automated replies', { exact: true })).toBeVisible();
+    await expect(page.locator('.badge-sample, .sample-notice')).toHaveCount(0);
 
     await page.goto('/books?sellerRole=faculty&subject=Physics');
     await expect(page.locator('.book-card .badge-faculty').first()).toBeVisible();
@@ -575,10 +587,10 @@ test.describe.serial('marketplace', () => {
     await register(page, { name: 'Neha Buyer', email: `neha${stamp}@uni.test`, password: 'password-nehaa', role: 'Student' });
     await page.goto('/books?q=Data+Communications+and+Networking');
     await page.locator('.book-card a').first().click();
-    await expect(page.getByText('The seller replies automatically')).toBeVisible();
+    await expect(page.locator('.facts')).toContainText('Simulated · fictional seller · automated replies');
     await page.getByRole('button', { name: 'Message seller' }).click();
     await expect(page).toHaveURL(/\/messages\/[a-f\d]{24}/);
-    await expect(page.getByText('Fictional seller. Replies are automated.')).toBeVisible();
+    await expect(page.locator('.thread-head')).not.toContainText(/fictional|automated|Example/);
     const chips = page.getByRole('group', { name: 'Suggested messages' }).getByRole('button');
     const last = page.locator('.thread-body .bubble').last();
     await expect(chips).toHaveText(['Is this book still available?', 'Can you tell me more about its condition?', 'Would you consider a lower price?']);
@@ -605,6 +617,7 @@ test.describe.serial('marketplace', () => {
     await expect(last).toContainText('marked the book as sold');
     await page.goto('/transactions');
     await expect(page.locator('.request-card').first()).toContainText('Completed');
+    await expect(page.locator('.request-card').first()).toContainText('Simulated exchange');
   });
 
   test('home showcase: three covers only, spotlight on hover, each opens its own listing before and after rotation', async ({ browser }) => {
@@ -703,7 +716,9 @@ test.describe.serial('marketplace', () => {
     const member = ctx.student;
     const admin = ctx.admin;
     const anyBook = await member.request.get('/api/books?limit=1').then((r) => r.json());
-    const memberPaths = ['/', '/books', `/books/${anyBook.items[0]._id}`, '/dashboard', '/sell', '/my-listings', '/wishlist', '/requests', '/transactions', '/messages', '/notifications', '/profile'];
+    const simulated = await member.request.get('/api/books?q=Discrete+Mathematics+and+Its&limit=1').then((r) => r.json());
+    expect(simulated.items[0].isDemo).toBe(true);
+    const memberPaths = ['/', '/books', `/books/${anyBook.items[0]._id}`, `/books/${simulated.items[0]._id}`, `/users/${simulated.items[0].seller._id}`, '/dashboard', '/sell', '/my-listings', '/wishlist', '/requests', '/transactions', '/messages', '/notifications', '/profile'];
     const adminPaths = ['/admin', '/admin/users', '/admin/listings', '/admin/reports', '/admin/audit'];
     const problems = [];
     for (const [label, viewport] of Object.entries(VIEWPORTS)) {

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { api } from '../api.js';
 import BookCard, { BookGridSkeleton } from '../components/BookCard.jsx';
-import { EmptyState, Field, Icon, Loaded, Pagination, SampleBadge, SemesterSelect, SubjectSelect } from '../components/ui.jsx';
+import { EmptyState, Field, Icon, Loaded, Pagination, SemesterSelect, SubjectSelect } from '../components/ui.jsx';
 import { CONDITIONS } from '../constants.js';
 import { useFetch, useTitle } from '../hooks.js';
 
@@ -119,7 +119,6 @@ export default function Browse() {
               <>
                 <p className="muted result-count">
                   {data.total} {data.total === 1 ? 'book' : 'books'}
-                  {data.items.some((b) => b.isDemo) && <span className="small"> · includes <SampleBadge /> listings: reading-list books from fictional sellers, not real offers</span>}
                 </p>
                 {data.items.length ? (
                   <div className="book-grid book-grid-3">

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { api } from '../../api.js';
-import { ActionDialog, EmptyState, Loaded, Modal, Pagination, StatusBadge, SampleBadge } from '../../components/ui.jsx';
+import { ActionDialog, EmptyState, Loaded, Modal, Pagination, StatusBadge } from '../../components/ui.jsx';
 import { formatDate, formatDateTime, formatPrice, REPORT_CATEGORIES } from '../../constants.js';
 import { useToast } from '../../context/ToastContext.jsx';
 import { useFetch, useTitle } from '../../hooks.js';
@@ -117,7 +117,7 @@ export default function AdminListings() {
                     {data.items.map((b) => (
                       <tr key={b._id}>
                         <td>
-                          <Link to={`/books/${b._id}`}><strong>{b.title}</strong></Link> {b.isDemo && <SampleBadge />}
+                          <Link to={`/books/${b._id}`}><strong>{b.title}</strong></Link>{b.isDemo && <span className="small muted"> · Simulated</span>}
                           <div className="small muted">{b.author} · {b.edition ?? 'Edition not stated'} · {formatDate(b.createdAt)}</div>
                         </td>
                         <td>{b.seller?.name}<div className="small muted">{b.seller?.email}</div></td>

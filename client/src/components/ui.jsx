@@ -153,9 +153,6 @@ export function RoleBadge({ role }) {
   return null;
 }
 
-// Marks illustrative listings and profiles (isDemo): visible wherever they could pass for real offers.
-export const SampleBadge = () => <span className="badge badge-sample" title="Example listing: shows a book from a course reading list. Not a real offer.">Example</span>;
-
 export function Pagination({ page, pages, onChange }) {
   if (pages <= 1) return null;
   return (
